@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql>
+    <select ID="queryIndexForumBoardList">
+        <![CDATA[
+        #每个主题的总发帖数
+SELECT
+    main_boardlist.id main_id,
+    main_boardlist.board_name main_name,
+    main_boardlist.master_name,
+    main_boardlist.show_order,
+    CASE
+        WHEN ISNULL(today_info.today_count) THEN 0
+        ELSE today_info.today_count
+    END today_count,
+    child_boardlist.*
+FROM
+    (SELECT
+        board_list.id,
+            board_list.board_name,
+            board_list.par_id,
+            board_list.show_order,
+            GROUP_CONCAT(user_info.login_name) master_name
+    FROM
+        (SELECT
+        *
+    FROM
+        forum_board_list
+    WHERE
+        del_flag = '0' AND par_id = '0') board_list
+    LEFT JOIN (SELECT
+        *
+    FROM
+        forum_board_master
+    WHERE
+        del_flag = '0') board_master ON board_list.id = board_master.board_id
+    LEFT JOIN (SELECT
+        *
+    FROM
+        sys_user
+    WHERE
+        del_flag = '0') user_info ON user_info.id = board_master.user_id
+    GROUP BY board_list.id) main_boardlist
+        LEFT JOIN
+    (SELECT
+        *
+    FROM
+        (SELECT
+        id, par_id, board_name
+    FROM
+        forum_board_list
+    WHERE
+        del_flag = '0' AND par_id <> '0'
+    ORDER BY show_order DESC) tmp_boardList
+    LEFT JOIN (SELECT
+        tmp_top.*,
+            tmp_bottom.post_title,
+            tmp_bottom.content,
+            tmp_bottom.user_id,
+            tmp_bottom.create_date,
+            tmp_bottom.login_name
+    FROM
+        (SELECT
+        tmp_reply.board_id,
+            tmp_reply.post_id,
+            theme.post_count + tmp_reply.total_reply_count total_reply_count,
+            theme.post_count
+    FROM
+        (SELECT
+        tmp_posts.board_id,
+            reply.post_id,
+            reply.reply_id,
+            SUM(reply.reply_count + reply_trace.reply_trace_count) total_reply_count
+    FROM
+        (SELECT
+        id reply_id, post_id, COUNT(post_id) AS reply_count
+    FROM
+        forum_post_reply
+    WHERE
+        del_flag = '0'
+    GROUP BY post_id) reply
+    LEFT JOIN (SELECT
+        id trace_id, reply_id, COUNT(reply_id) AS reply_trace_count
+    FROM
+        forum_reply_trace
+    WHERE
+        del_flag = '0'
+    GROUP BY reply_id) reply_trace ON reply.reply_id = reply_trace.reply_id
+    RIGHT JOIN (SELECT
+        *
+    FROM
+        forum_posts
+    WHERE
+        del_flag = '0') tmp_posts ON reply.post_id = tmp_posts.id
+    GROUP BY tmp_posts.board_id) tmp_reply
+    RIGHT JOIN (SELECT
+        id post_id, board_id, COUNT(board_id) AS post_count
+    FROM
+        forum_posts
+    WHERE
+        del_flag = '0'
+    GROUP BY board_id) theme ON tmp_reply.board_id = theme.board_id) tmp_top
+    LEFT JOIN (SELECT
+        *
+    FROM
+        (SELECT
+        tempA.*
+    FROM
+        (SELECT
+        CASE
+                WHEN ISNULL(reply_trace.reply_id) THEN post_reply.id
+                ELSE reply_trace.reply_id
+            END AS reply_id,
+            post_reply.post_id,
+            tmp_posts.post_title,
+            CASE
+                WHEN ISNULL(reply_trace.reply_id) THEN post_reply.rp_content
+                ELSE reply_trace.trace_content
+            END AS content,
+            CASE
+                WHEN ISNULL(reply_trace.reply_id) THEN post_reply.create_by
+                ELSE reply_trace.create_by
+            END AS user_id,
+            CASE
+                WHEN ISNULL(reply_trace.reply_id) THEN post_reply.create_date
+                ELSE reply_trace.create_date
+            END AS create_date,
+            tmp_posts.board_id
+    FROM
+        (SELECT
+        id, post_id, rp_content, create_by, create_date
+    FROM
+        forum_post_reply
+    WHERE
+        del_flag = '0') AS post_reply
+    LEFT JOIN (SELECT
+        create_by, reply_id, trace_content, create_date
+    FROM
+        forum_reply_trace
+    WHERE
+        del_flag = '0') AS reply_trace ON post_reply.id = reply_trace.reply_id
+    LEFT JOIN (SELECT
+        *
+    FROM
+        forum_posts
+    WHERE
+        del_flag = '0') tmp_posts ON post_reply.post_id = tmp_posts.id) tempA, (SELECT
+        *, MAX(create_date) AS max_date
+    FROM
+        (SELECT
+        CASE
+                WHEN ISNULL(reply_trace.reply_id) THEN post_reply.id
+                ELSE reply_trace.reply_id
+            END AS reply_id,
+            post_reply.post_id,
+            CASE
+                WHEN ISNULL(reply_trace.reply_id) THEN post_reply.rp_content
+                ELSE reply_trace.trace_content
+            END AS content,
+            CASE
+                WHEN ISNULL(reply_trace.reply_id) THEN post_reply.create_by
+                ELSE reply_trace.create_by
+            END AS user_id,
+            CASE
+                WHEN ISNULL(reply_trace.reply_id) THEN post_reply.create_date
+                ELSE reply_trace.create_date
+            END AS create_date,
+            tmp_posts.board_id
+    FROM
+        (SELECT
+        id, post_id, rp_content, create_by, create_date
+    FROM
+        forum_post_reply
+    WHERE
+        del_flag = '0') AS post_reply
+    LEFT JOIN (SELECT
+        create_by, reply_id, trace_content, create_date
+    FROM
+        forum_reply_trace
+    WHERE
+        del_flag = '0') AS reply_trace ON post_reply.id = reply_trace.reply_id
+    LEFT JOIN (SELECT
+        *
+    FROM
+        forum_posts
+    WHERE
+        del_flag = '0') tmp_posts ON post_reply.post_id = tmp_posts.id) temp
+    GROUP BY board_id) tempB
+    WHERE
+        tempA.board_id = tempB.board_id
+            AND tempA.create_date = tempB.max_date) last_reply
+    LEFT JOIN (SELECT
+        id, login_name
+    FROM
+        sys_user
+    WHERE
+        del_flag = '0') USER ON last_reply.user_id = USER.id) tmp_bottom ON tmp_top.board_id = tmp_bottom.board_id) tmp_all_info ON tmp_boardList.id = tmp_all_info.board_id) child_boardlist ON main_boardlist.id = child_boardlist.par_id
+        LEFT JOIN
+    (SELECT
+        id,
+            board_id,
+            DATE_FORMAT(create_date, '%Y-%m-%d'),
+            COUNT(DATE_FORMAT(create_date, '%Y-%m-%d')) today_count
+    FROM
+        forum_posts
+    WHERE
+        del_flag = '0'
+            AND DATE_FORMAT(create_date, '%Y-%m-%d') = DATE_FORMAT(NOW(), '%Y-%m-%d')
+    GROUP BY board_id , DATE_FORMAT(create_date, '%Y-%m-%d')) today_info ON child_boardlist.id = today_info.board_id
+ORDER BY main_boardlist.show_order , main_boardlist.id
+        ]]>
+    </select>
+</sql>

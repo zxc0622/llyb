@@ -1,0 +1,2632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="7c9f6507-80cb-4b10-830d-9f495daf06d5" name="Default" comment="公告">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/llhb.log" afterPath="$PROJECT_DIR$/llhb.log" />
+    </list>
+    <list id="04674198-dc49-4be9-8ddd-68ae22e1f402" name="z_ignore" comment="z_ignore">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/config.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/ehcache-shiro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/ehcache.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/html/activation_html.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/html/findPassword_html.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/html/msg_html.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/html" afterPath="" />
+    </list>
+    <ignored path="llhb.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/ehcache-shiro.xml" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/ehcache.xml" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/llhb$TestConnection.coverage" NAME="TestConnection Coverage Results" MODIFIED="1457933852611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>connectDB.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="llhb" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdLable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/admana/model/AdLable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="209" column="93" selection-start-line="209" selection-start-column="93" selection-end-line="209" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter-dev.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/filters/filter-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18480493">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserHomePageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/controller/UserHomePageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cfHomePage.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userhomepage/cfHomePage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="120" column="67" selection-start-line="120" selection-start-column="67" selection-end-line="120" selection-end-column="67" />
+              <folding>
+                <marker date="1473819883000" expanded="true" signature="15758:15769" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hbHomePage.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userhomepage/hbHomePage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="131" column="117" selection-start-line="131" selection-start-column="117" selection-end-line="131" selection-end-column="117" />
+              <folding>
+                <marker date="1473819775000" expanded="true" signature="13081:13094" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proDetail.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/auditList/productAudit/proDetail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reg/register.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/ueditor/controller/UeditorFileUpload.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/ueditor/ueditor.config.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/llhb/common.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice/gzDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/protection/proHome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice/noticFour.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice/noticThree.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice/noticOne.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice/noticTwo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zixun/searchResult.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zixun/zxDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/sys/utils/WaterMarkUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/common/utils/UploadFileUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/ueditor/controller/UeditorFileUploadController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/controller/SolidSupplyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/model/Quirement.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pager/_paginateYP4mall.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pager/_paginateYP4demand.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/solidsupply/hbDemandList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/footer_top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ypcd/business/BusinessInformation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/shiro.ini" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trademana/rechargeonline/rechargeonline.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/trademana/controller/RechargeOnlineController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/management/homeManagement.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/admana/controller/homeManagementController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/common/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/sys/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/memSerevice/message/content.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/memService/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/memSerevice/message/send.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/hyzl/controller/EnterpriseController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/environmentDetail/detail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/hyzl/model/Member.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/recuitment/recuInfoAdd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/recuitment/recuInfoPreview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/recruitment/controller/RecuimentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/recruitment/model/RecuitmentInfomation.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/recuitment/recuInfoMore.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/recuitment/recuInfoDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/llhb/index.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/llhb/index.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/llhb/index_new.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/llhb/index_new.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userhomepage/hbHomePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userhomepage/cfHomePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qdum/llhb/admana/model/AdLable.java" />
+        <option value="$PROJECT_DIR$/src/main/filters/filter-dev.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/apache-maven-2.2.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="llhb Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="llhb Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="llhb Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="llhb Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jetty" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="y" value="23" />
+    <option name="width" value="1393" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ypcd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ypcd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="succeedCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infomaintain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adsReser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="72" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="103" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="101" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="38" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="131" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="876" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="179" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="178" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="181" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="178" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="186" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="419" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39770114" />
+    <property name="SearchEverywhereHistoryKey" value="homecon&#9;FILE&#9;file:///Users/yaoyt/workspace/space_intellij/201501_llhb/llhb/src/main/java/com/qdum/llhb/backmana/controller/HomeController.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/css/llhb" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/img/llhb" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/js/llhb" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pager" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qdum.llhb.hyzl.model" />
+      <recent name="com.qdum.llhb.common.handler" />
+      <recent name="com.qdum.llhb.common.utils" />
+      <recent name="com.qdum.llhb.backmana.model" />
+      <recent name="com.qdum.llhb.ws" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/css/llhb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.llhb [jetty:run]">
+    <configuration default="false" name="llhb [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="SystemServiceUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qdum.llhb.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.qdum.llhb.common.utils.SystemServiceUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="llhb" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="connectDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="connectDB.TestConnection" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="llhb" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="connectDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="connectDB.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="llhb" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="llhb [jetty:start]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:start" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="llhb" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="llhb-tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.65" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$">
+          <settings>
+            <option name="CONTEXT_PATH" value="/llhb" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_llhb" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55059" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.llhb-tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.llhb [jetty:run]" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SystemServiceUtil" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestConnection" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.llhb [jetty:start]" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Maven.llhb [jetty:run]" />
+        <item index="1" class="java.lang.String" itemvalue="Maven.llhb [jetty:start]" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestConnection" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SystemServiceUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c9f6507-80cb-4b10-830d-9f495daf06d5" name="Default" comment="" />
+      <changelist id="04674198-dc49-4be9-8ddd-68ae22e1f402" name="ignore" comment="" />
+      <created>1451525533794</created>
+      <option name="number" value="Default" />
+      <updated>1451525533794</updated>
+      <workItem from="1451525535429" duration="16005000" />
+      <workItem from="1451871382448" duration="14942000" />
+      <workItem from="1451963998356" duration="11210000" />
+      <workItem from="1452042683944" duration="8198000" />
+      <workItem from="1452073892050" duration="1104000" />
+      <workItem from="1452129002974" duration="9198000" />
+      <workItem from="1452215621987" duration="6089000" />
+      <workItem from="1452236627870" duration="2081000" />
+      <workItem from="1452243952076" duration="19000" />
+      <workItem from="1452474233253" duration="15967000" />
+      <workItem from="1452560187956" duration="11227000" />
+      <workItem from="1452581559574" duration="5066000" />
+      <workItem from="1452646685800" duration="1541000" />
+      <workItem from="1452667402651" duration="5580000" />
+      <workItem from="1452736489585" duration="4838000" />
+      <workItem from="1452763975470" duration="52000" />
+      <workItem from="1452820430147" duration="16956000" />
+      <workItem from="1453080807319" duration="13323000" />
+      <workItem from="1453169697609" duration="329000" />
+      <workItem from="1453338639717" duration="14292000" />
+      <workItem from="1453369306667" duration="1059000" />
+      <workItem from="1453426229934" duration="18307000" />
+      <workItem from="1453683898407" duration="14654000" />
+      <workItem from="1453770254237" duration="23114000" />
+      <workItem from="1453855981841" duration="18795000" />
+      <workItem from="1453944208588" duration="23345000" />
+      <workItem from="1454029534261" duration="13396000" />
+      <workItem from="1455414811810" duration="4307000" />
+      <workItem from="1455498303284" duration="8460000" />
+      <workItem from="1455588932457" duration="11852000" />
+      <workItem from="1455671384332" duration="8118000" />
+      <workItem from="1455760275475" duration="1634000" />
+      <workItem from="1455844121472" duration="17095000" />
+      <workItem from="1456103660881" duration="171000" />
+      <workItem from="1456103852265" duration="65000" />
+      <workItem from="1456103921698" duration="3000" />
+      <workItem from="1456104932036" duration="1715000" />
+      <workItem from="1456119237496" duration="1249000" />
+      <workItem from="1456124911794" duration="490000" />
+      <workItem from="1456135652400" duration="7000" />
+      <workItem from="1456189462968" duration="959000" />
+      <workItem from="1456193704431" duration="3084000" />
+      <workItem from="1456282373301" duration="5061000" />
+      <workItem from="1456290257249" duration="13142000" />
+      <workItem from="1456363099949" duration="8632000" />
+      <workItem from="1456450383141" duration="86000" />
+      <workItem from="1456450893089" duration="3312000" />
+      <workItem from="1456707826797" duration="9112000" />
+      <workItem from="1456726532848" duration="3299000" />
+      <workItem from="1456794088393" duration="18058000" />
+      <workItem from="1456881468736" duration="1146000" />
+      <workItem from="1456884912541" duration="2281000" />
+      <workItem from="1456899731454" duration="3709000" />
+      <workItem from="1456913204455" duration="1503000" />
+      <workItem from="1456974665765" duration="8926000" />
+      <workItem from="1457053775404" duration="8246000" />
+      <workItem from="1457318477258" duration="6000" />
+      <workItem from="1457319914323" duration="650000" />
+      <workItem from="1457399300816" duration="13182000" />
+      <workItem from="1457429577068" duration="1149000" />
+      <workItem from="1457485371186" duration="11494000" />
+      <workItem from="1457514417441" duration="70000" />
+      <workItem from="1457591425948" duration="936000" />
+      <workItem from="1457606855045" duration="310000" />
+      <workItem from="1457658388626" duration="9476000" />
+      <workItem from="1457925043855" duration="11288000" />
+      <workItem from="1458003331256" duration="301000" />
+      <workItem from="1458006692406" duration="5162000" />
+      <workItem from="1458100219235" duration="3828000" />
+      <workItem from="1458179708501" duration="13150000" />
+      <workItem from="1458264428845" duration="920000" />
+      <workItem from="1458275378553" duration="2000" />
+      <workItem from="1458285744782" duration="5261000" />
+      <workItem from="1458522752208" duration="26545000" />
+      <workItem from="1458608701060" duration="10301000" />
+      <workItem from="1458694412752" duration="19358000" />
+      <workItem from="1458729844501" duration="158000" />
+      <workItem from="1458781149191" duration="6552000" />
+      <workItem from="1458868809967" duration="6760000" />
+      <workItem from="1459127069145" duration="25905000" />
+      <workItem from="1459213748041" duration="14789000" />
+      <workItem from="1459299728489" duration="5981000" />
+      <workItem from="1459386236355" duration="10907000" />
+      <workItem from="1459472772827" duration="13725000" />
+      <workItem from="1459494285161" duration="385000" />
+      <workItem from="1459494701812" duration="5745000" />
+      <workItem from="1459818487833" duration="539000" />
+      <workItem from="1459819132542" duration="14257000" />
+      <workItem from="1459904587190" duration="15328000" />
+      <workItem from="1459930510574" duration="36000" />
+      <workItem from="1459930632745" duration="27000" />
+      <workItem from="1459932386503" duration="3188000" />
+      <workItem from="1459991309477" duration="12372000" />
+      <workItem from="1460079296641" duration="21714000" />
+      <workItem from="1460110275280" duration="950000" />
+      <workItem from="1460165165498" duration="8237000" />
+      <workItem from="1460174150233" duration="28000" />
+      <workItem from="1460190584839" duration="2819000" />
+      <workItem from="1460193939231" duration="118000" />
+      <workItem from="1460344083532" duration="213000" />
+      <workItem from="1460345205979" duration="12812000" />
+      <workItem from="1460426784324" duration="12597000" />
+      <workItem from="1460510354452" duration="2408000" />
+      <workItem from="1460525268585" duration="6000" />
+      <workItem from="1460525496707" duration="1647000" />
+      <workItem from="1460538381893" duration="233000" />
+      <workItem from="1460539173850" duration="4392000" />
+      <workItem from="1460544897737" duration="5000" />
+      <workItem from="1460599817400" duration="848000" />
+      <workItem from="1460619345468" duration="1219000" />
+      <workItem from="1460684036704" duration="6659000" />
+      <workItem from="1460941913284" duration="6946000" />
+      <workItem from="1461038614196" duration="887000" />
+      <workItem from="1461064000904" duration="3000" />
+      <workItem from="1461125213240" duration="44000" />
+      <workItem from="1461133591222" duration="285000" />
+      <workItem from="1461138431157" duration="9511000" />
+      <workItem from="1461229666549" duration="202000" />
+      <workItem from="1461231978051" duration="1584000" />
+      <workItem from="1461287126206" duration="3162000" />
+      <workItem from="1461304183328" duration="40000" />
+      <workItem from="1461304312956" duration="624000" />
+      <workItem from="1461305168523" duration="43000" />
+      <workItem from="1461305259319" duration="13000" />
+      <workItem from="1461305322587" duration="2493000" />
+      <workItem from="1461375282116" duration="19000" />
+      <workItem from="1461490341606" duration="3632000" />
+      <workItem from="1461503816415" duration="51000" />
+      <workItem from="1461553957231" duration="4229000" />
+      <workItem from="1461579406777" duration="1026000" />
+      <workItem from="1461632350584" duration="872000" />
+      <workItem from="1461661808291" duration="1917000" />
+      <workItem from="1461719769822" duration="1541000" />
+      <workItem from="1461735295409" duration="3705000" />
+      <workItem from="1461751317670" duration="1007000" />
+      <workItem from="1461806257377" duration="1302000" />
+      <workItem from="1461820409103" duration="25000" />
+      <workItem from="1461820535566" duration="3366000" />
+      <workItem from="1461833321645" duration="4860000" />
+      <workItem from="1461898171524" duration="4547000" />
+      <workItem from="1461911592269" duration="2475000" />
+      <workItem from="1461925014317" duration="267000" />
+      <workItem from="1462241174682" duration="25000" />
+      <workItem from="1462332958589" duration="4225000" />
+      <workItem from="1462366876243" duration="28000" />
+      <workItem from="1462411713914" duration="4483000" />
+      <workItem from="1462432009900" duration="4089000" />
+      <workItem from="1462436816005" duration="14000" />
+      <workItem from="1462439357164" duration="2029000" />
+      <workItem from="1462497538010" duration="2961000" />
+      <workItem from="1462520879722" duration="484000" />
+      <workItem from="1462542950466" duration="557000" />
+      <workItem from="1462621255522" duration="20000" />
+      <workItem from="1462842472170" duration="1774000" />
+      <workItem from="1462867895882" duration="31000" />
+      <workItem from="1462929425242" duration="1521000" />
+      <workItem from="1462931493774" duration="1810000" />
+      <workItem from="1462952898438" duration="4101000" />
+      <workItem from="1463109657331" duration="13817000" />
+      <workItem from="1463241748396" duration="7000" />
+      <workItem from="1463241977920" duration="1722000" />
+      <workItem from="1463244018737" duration="18000" />
+      <workItem from="1463244771353" duration="28000" />
+      <workItem from="1463270673498" duration="18000" />
+      <workItem from="1463361349655" duration="2917000" />
+      <workItem from="1463478872173" duration="770000" />
+      <workItem from="1463534822324" duration="606000" />
+      <workItem from="1463647509091" duration="1832000" />
+      <workItem from="1463707711673" duration="211000" />
+      <workItem from="1463710770974" duration="3667000" />
+      <workItem from="1463982731845" duration="17000" />
+      <workItem from="1463982764221" duration="3540000" />
+      <workItem from="1464051734770" duration="2625000" />
+      <workItem from="1464082813245" duration="3459000" />
+      <workItem from="1464138562588" duration="8195000" />
+      <workItem from="1464226180674" duration="2364000" />
+      <workItem from="1464231464222" duration="4647000" />
+      <workItem from="1464332646922" duration="1950000" />
+      <workItem from="1464570210255" duration="3023000" />
+      <workItem from="1464597607259" duration="5759000" />
+      <workItem from="1464656563869" duration="29766000" />
+      <workItem from="1464742686085" duration="14647000" />
+      <workItem from="1464763083936" duration="2479000" />
+      <workItem from="1464774850370" duration="788000" />
+      <workItem from="1464831962262" duration="4418000" />
+      <workItem from="1464916100271" duration="6706000" />
+      <workItem from="1465184443216" duration="7861000" />
+      <workItem from="1465198689614" duration="10046000" />
+      <workItem from="1465289891195" duration="2216000" />
+      <workItem from="1465347956008" duration="7122000" />
+      <workItem from="1465715386397" duration="1699000" />
+      <workItem from="1465726239905" duration="613000" />
+      <workItem from="1465780587279" duration="277000" />
+      <workItem from="1465810008916" duration="381000" />
+      <workItem from="1466038357447" duration="1300000" />
+      <workItem from="1466152911848" duration="3682000" />
+      <workItem from="1466384661159" duration="1791000" />
+      <workItem from="1466470365726" duration="4119000" />
+      <workItem from="1466502021723" duration="1045000" />
+      <workItem from="1466557452849" duration="2978000" />
+      <workItem from="1466652748618" duration="200000" />
+      <workItem from="1466667243290" duration="2185000" />
+      <workItem from="1466676529659" duration="4761000" />
+      <workItem from="1466729436047" duration="4540000" />
+      <workItem from="1466812794757" duration="190000" />
+      <workItem from="1466990031849" duration="537000" />
+      <workItem from="1467076574370" duration="8000" />
+      <workItem from="1467168977382" duration="1432000" />
+      <workItem from="1467171915307" duration="676000" />
+      <workItem from="1467594022091" duration="587000" />
+      <workItem from="1467708947852" duration="2304000" />
+      <workItem from="1467792267899" duration="4357000" />
+      <workItem from="1467797457245" duration="1863000" />
+      <workItem from="1467853632364" duration="1854000" />
+      <workItem from="1467876451424" duration="3848000" />
+      <workItem from="1468206653270" duration="1690000" />
+      <workItem from="1468250610089" duration="199000" />
+      <workItem from="1468285684265" duration="10682000" />
+      <workItem from="1468371599901" duration="28447000" />
+      <workItem from="1468458891999" duration="1595000" />
+      <workItem from="1468544902073" duration="3714000" />
+      <workItem from="1468804374650" duration="9581000" />
+      <workItem from="1468890523090" duration="4113000" />
+      <workItem from="1468904941139" duration="837000" />
+      <workItem from="1468978439184" duration="8000" />
+      <workItem from="1468978459739" duration="1211000" />
+      <workItem from="1468992003987" duration="996000" />
+      <workItem from="1469068105620" duration="499000" />
+      <workItem from="1469603345039" duration="6028000" />
+      <workItem from="1469670277021" duration="7228000" />
+      <workItem from="1470016238250" duration="5288000" />
+      <workItem from="1470038107439" duration="53000" />
+      <workItem from="1470125160306" duration="821000" />
+      <workItem from="1470132931558" duration="351000" />
+      <workItem from="1470187284955" duration="8391000" />
+      <workItem from="1470277270580" duration="235000" />
+      <workItem from="1470284532128" duration="2971000" />
+      <workItem from="1470359210716" duration="12902000" />
+      <workItem from="1470618908336" duration="1502000" />
+      <workItem from="1470625278802" duration="20000" />
+      <workItem from="1470626432754" duration="2250000" />
+      <workItem from="1470706001894" duration="11946000" />
+      <workItem from="1470792461999" duration="9074000" />
+      <workItem from="1470877597469" duration="12228000" />
+      <workItem from="1470964864469" duration="12009000" />
+      <workItem from="1471077489891" duration="9676000" />
+      <workItem from="1471223798357" duration="31000" />
+      <workItem from="1471341654469" duration="340000" />
+      <workItem from="1471342440221" duration="1008000" />
+      <workItem from="1471403140625" duration="695000" />
+      <workItem from="1471482172153" duration="3000" />
+      <workItem from="1471485934168" duration="2003000" />
+      <workItem from="1471504458612" duration="485000" />
+      <workItem from="1471570018572" duration="3477000" />
+      <workItem from="1471600048266" duration="809000" />
+      <workItem from="1471846698191" duration="2512000" />
+      <workItem from="1471916924342" duration="270000" />
+      <workItem from="1471922524761" duration="720000" />
+      <workItem from="1471938139501" duration="4337000" />
+      <workItem from="1472007811157" duration="299000" />
+      <workItem from="1472033940835" duration="11000" />
+      <workItem from="1472087740859" duration="1268000" />
+      <workItem from="1472174172561" duration="20000" />
+      <workItem from="1472192559968" duration="2017000" />
+      <workItem from="1472615820010" duration="7279000" />
+      <workItem from="1472634814109" duration="2066000" />
+      <workItem from="1472695801754" duration="15956000" />
+      <workItem from="1472722867404" duration="1766000" />
+      <workItem from="1472725285259" duration="59000" />
+      <workItem from="1472778681357" duration="1724000" />
+      <workItem from="1473151920970" duration="2768000" />
+      <workItem from="1473212253318" duration="8002000" />
+      <workItem from="1473220884077" duration="329000" />
+      <workItem from="1473229894048" duration="2900000" />
+      <workItem from="1473296654152" duration="1901000" />
+      <workItem from="1473322831459" duration="6399000" />
+      <workItem from="1473383691113" duration="6400000" />
+      <workItem from="1473392392549" duration="1147000" />
+      <workItem from="1473642248270" duration="1900000" />
+      <workItem from="1473819477124" duration="567000" />
+      <workItem from="1474334079111" duration="625000" />
+      <workItem from="1474861309076" duration="1274000" />
+      <workItem from="1474969369508" duration="1674000" />
+      <workItem from="1475024365883" duration="9000" />
+      <workItem from="1475050424255" duration="1242000" />
+      <workItem from="1475112468415" duration="3000" />
+      <workItem from="1476078113786" duration="269000" />
+      <workItem from="1477285500180" duration="119000" />
+    </task>
+    <task id="LOCAL-00103" summary="资讯维护页增加超链接维护功能">
+      <created>1468314269035</created>
+      <option name="number" value="00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1468314269035</updated>
+    </task>
+    <task id="LOCAL-00104" summary="首页地址栏静态化,地址中的_改为-,title中的资讯描述改为100字,首页模块文字描述修改,logo中添加alt属性">
+      <created>1468389502038</created>
+      <option name="number" value="00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1468389502039</updated>
+    </task>
+    <task id="LOCAL-00105" summary="商品审核增加 审核时间/公司名称/查看按钮">
+      <created>1468392898030</created>
+      <option name="number" value="00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1468392898030</updated>
+    </task>
+    <task id="LOCAL-00106" summary="翻译功能修改  yyt">
+      <created>1468403105028</created>
+      <option name="number" value="00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1468403105028</updated>
+    </task>
+    <task id="LOCAL-00107" summary="100字描述改为150字">
+      <created>1468488266043</created>
+      <option name="number" value="00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1468488266045</updated>
+    </task>
+    <task id="LOCAL-00108" summary="JS bug修改">
+      <created>1468812417034</created>
+      <option name="number" value="00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1468812417035</updated>
+    </task>
+    <task id="LOCAL-00109" summary="环保报价,环评报价后台修改  yaoyt">
+      <created>1468892626035</created>
+      <option name="number" value="00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1468892626036</updated>
+    </task>
+    <task id="LOCAL-00110" summary="营业执照预览修改  yaoyt">
+      <created>1469605329036</created>
+      <option name="number" value="00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1469605329037</updated>
+    </task>
+    <task id="LOCAL-00111" summary="验证码 yaoyt">
+      <created>1469605978028</created>
+      <option name="number" value="00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1469605978028</updated>
+    </task>
+    <task id="LOCAL-00112" summary="BUG修改  yaoyt">
+      <created>1469609241034</created>
+      <option name="number" value="00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1469609241034</updated>
+    </task>
+    <task id="LOCAL-00113" summary="BUG修改  yaoyt">
+      <created>1469686632036</created>
+      <option name="number" value="00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1469686632037</updated>
+    </task>
+    <task id="LOCAL-00114" summary="生产包配置文件修改 yaoyt">
+      <created>1470031798037</created>
+      <option name="number" value="00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1470031798038</updated>
+    </task>
+    <task id="LOCAL-00115" summary="首页材料BUG修改 yaoyt">
+      <created>1470125670036</created>
+      <option name="number" value="00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1470125670037</updated>
+    </task>
+    <task id="LOCAL-00116" summary="BUG 修改,其他供应商产品改为随机取数  yaoyt">
+      <created>1470207891038</created>
+      <option name="number" value="00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1470207891039</updated>
+    </task>
+    <task id="LOCAL-00117" summary="配置文件修改 yaoyt">
+      <created>1470208743031</created>
+      <option name="number" value="00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1470208743031</updated>
+    </task>
+    <task id="LOCAL-00118" summary="首页修改  东莞">
+      <created>1470286159033</created>
+      <option name="number" value="00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1470286159035</updated>
+    </task>
+    <task id="LOCAL-00119" summary="首页修改  东莞">
+      <created>1470306908028</created>
+      <option name="number" value="00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1470306908028</updated>
+    </task>
+    <task id="LOCAL-00120" summary="图片等比例放大缩小  yaoyt">
+      <created>1470366600041</created>
+      <option name="number" value="00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1470366600042</updated>
+    </task>
+    <task id="LOCAL-00121" summary="首页修改  东莞">
+      <created>1470367533033</created>
+      <option name="number" value="00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1470367533033</updated>
+    </task>
+    <task id="LOCAL-00122" summary="IE8兼容性修改  yyt">
+      <created>1470387668033</created>
+      <option name="number" value="00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1470387668033</updated>
+    </task>
+    <task id="LOCAL-00123" summary="样式修改 yyt">
+      <created>1470390519035</created>
+      <option name="number" value="00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1470390519035</updated>
+    </task>
+    <task id="LOCAL-00124" summary="图片修改 yaoyt">
+      <created>1470735731032</created>
+      <option name="number" value="00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1470735731033</updated>
+    </task>
+    <task id="LOCAL-00125" summary="东莞样式修改 yyt">
+      <created>1470796415042</created>
+      <option name="number" value="00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1470796415044</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Ueditor上传controller修改  yaoyt">
+      <created>1470895932036</created>
+      <option name="number" value="00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1470895932037</updated>
+    </task>
+    <task id="LOCAL-00127" summary="页面Header修改  yaoyt">
+      <created>1470907414032</created>
+      <option name="number" value="00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1470907414032</updated>
+    </task>
+    <task id="LOCAL-00128" summary="环保需求搜索页面BUG修改  yaoyt">
+      <created>1471092889031</created>
+      <option name="number" value="00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1471092889032</updated>
+    </task>
+    <task id="LOCAL-00129" summary="首页发布产品连接修改 yaoyt">
+      <created>1471341834035</created>
+      <option name="number" value="00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1471341834036</updated>
+    </task>
+    <task id="LOCAL-00130" summary="BUG修改">
+      <created>1471343446035</created>
+      <option name="number" value="00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1471343446035</updated>
+    </task>
+    <task id="LOCAL-00131" summary="东莞修改   8.18">
+      <created>1471489504038</created>
+      <option name="number" value="00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1471489504039</updated>
+    </task>
+    <task id="LOCAL-00132" summary="样式修改 yaoyt">
+      <created>1471946656045</created>
+      <option name="number" value="00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1471946656046</updated>
+    </task>
+    <task id="LOCAL-00133" summary="公告">
+      <created>1471948351033</created>
+      <option name="number" value="00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1471948351033</updated>
+    </task>
+    <task id="LOCAL-00134" summary="BUG修改">
+      <created>1472193444038</created>
+      <option name="number" value="00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1472193444038</updated>
+    </task>
+    <task id="LOCAL-00135" summary="8.30 优蚁首页广告修改 yaoyt">
+      <created>1472628132039</created>
+      <option name="number" value="00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1472628132040</updated>
+    </task>
+    <task id="LOCAL-00136">
+      <created>1472637275034</created>
+      <option name="number" value="00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1472637275034</updated>
+    </task>
+    <task id="LOCAL-00137" summary="增加短信群发功能">
+      <created>1472717219036</created>
+      <option name="number" value="00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1472717219037</updated>
+    </task>
+    <task id="LOCAL-00138" summary="去掉赠送有蚁比功能,改为联系客服充值.">
+      <created>1472717624028</created>
+      <option name="number" value="00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1472717624028</updated>
+    </task>
+    <task id="LOCAL-00139" summary="首页代码调整  yaoyt">
+      <created>1472781163038</created>
+      <option name="number" value="00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1472781163039</updated>
+    </task>
+    <task id="LOCAL-00140" summary="首页滚动修改 yaoyt">
+      <created>1473154048030</created>
+      <option name="number" value="00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1473154048030</updated>
+    </task>
+    <task id="LOCAL-00141" summary="环保首页/环保招聘信息修改 yaoyt">
+      <created>1473220606039</created>
+      <option name="number" value="00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1473220606042</updated>
+    </task>
+    <task id="LOCAL-00142" summary="公告">
+      <created>1473221502029</created>
+      <option name="number" value="00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1473221502029</updated>
+    </task>
+    <task id="LOCAL-00143" summary="样式调整 yaoyt">
+      <created>1473232210029</created>
+      <option name="number" value="00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1473232210029</updated>
+    </task>
+    <task id="LOCAL-00144" summary="样式修改 yaoyt">
+      <created>1473296734032</created>
+      <option name="number" value="00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1473296734033</updated>
+    </task>
+    <task id="LOCAL-00145" summary="环保调整招聘模块">
+      <created>1473312613025</created>
+      <option name="number" value="00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1473312613025</updated>
+    </task>
+    <task id="LOCAL-00146" summary="title修改 yaoyt">
+      <created>1473324260035</created>
+      <option name="number" value="00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1473324260036</updated>
+    </task>
+    <task id="LOCAL-00147" summary="首页样式修改 yaoyt">
+      <created>1473329247028</created>
+      <option name="number" value="00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1473329247029</updated>
+    </task>
+    <task id="LOCAL-00148" summary="环保样式修改">
+      <created>1473389797038</created>
+      <option name="number" value="00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1473389797038</updated>
+    </task>
+    <task id="LOCAL-00149" summary="公告">
+      <created>1473392723034</created>
+      <option name="number" value="00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1473392723035</updated>
+    </task>
+    <task id="LOCAL-00150" summary="连接错误修改">
+      <created>1473820041035</created>
+      <option name="number" value="00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1473820041035</updated>
+    </task>
+    <task id="LOCAL-00151" summary="获取首页广告页数时增加del_flag = 0 的判断">
+      <created>1474862560042</created>
+      <option name="number" value="00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1474862560044</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1299883000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="23" width="1393" height="877" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655653" sideWeight="0.36927623" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32611465" sideWeight="0.26440176" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30749682" sideWeight="0.549963" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738853" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22797927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30241424" sideWeight="0.450037" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34561625" sideWeight="0.51295334" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.234641" sideWeight="0.4680307" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14844903" sideWeight="0.5319693" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22723909" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944486" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20679468" sideWeight="0.5151515" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49682337" sideWeight="0.61584014" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33630574" sideWeight="0.2640118" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61273885" sideWeight="0.40265486" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37961784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
+    <MESSAGE value="IE8兼容性修改  yyt" />
+    <MESSAGE value="样式修改 yyt" />
+    <MESSAGE value="图片修改 yaoyt" />
+    <MESSAGE value="东莞样式修改 yyt" />
+    <MESSAGE value="Ueditor上传controller修改  yaoyt" />
+    <MESSAGE value="页面Header修改  yaoyt" />
+    <MESSAGE value="环保需求搜索页面BUG修改  yaoyt" />
+    <MESSAGE value="首页发布产品连接修改 yaoyt" />
+    <MESSAGE value="东莞修改   8.18" />
+    <MESSAGE value="BUG修改" />
+    <MESSAGE value="8.30 优蚁首页广告修改 yaoyt" />
+    <MESSAGE value="增加短信群发功能" />
+    <MESSAGE value="去掉赠送有蚁比功能,改为联系客服充值." />
+    <MESSAGE value="首页代码调整  yaoyt" />
+    <MESSAGE value="首页滚动修改 yaoyt" />
+    <MESSAGE value="环保首页/环保招聘信息修改 yaoyt" />
+    <MESSAGE value="样式调整 yaoyt" />
+    <MESSAGE value="样式修改 yaoyt" />
+    <MESSAGE value="环保调整招聘模块" />
+    <MESSAGE value="title修改 yaoyt" />
+    <MESSAGE value="首页样式修改 yaoyt" />
+    <MESSAGE value="环保样式修改" />
+    <MESSAGE value="公告" />
+    <MESSAGE value="连接错误修改" />
+    <MESSAGE value="获取首页广告页数时增加del_flag = 0 的判断" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取首页广告页数时增加del_flag = 0 的判断" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/alipay/instant2account/return_005furl_jsp.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/alipay/instant2account/return_005furl_jsp.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/Competition/controller/InforManController.java</url>
+          <line>181</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/solidsupply/solidIndex.jsp</url>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/management/homeManagement.jsp</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/management/homeManagement.jsp</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/sys/controller/LoginController.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/reg/controller/RegisterController.java</url>
+          <line>655</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/ws/model/ServiceMain.java</url>
+          <line>442</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/solidsupply/solidIndex.jsp</url>
+          <line>529</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Library/introduction/CompanyIntroduction.jsp</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/controller/IndexController.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/memService/controller/MessageController.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jfinal/java/com/jfinal/ext/plugin/shiro/ShiroMethod.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="297" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/fns.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="47.583332">
+          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/fs.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/taglib.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/classinfo/classList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/classinfo/classForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="198.125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/shiros.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.25">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/shiro.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="116" column="6" selection-start-line="116" selection-start-column="6" selection-end-line="116" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jfinal/java/com/jfinal/ext/plugin/shiro/ShiroMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/dict/dictList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="74" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/memService/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/sys/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="385" column="28" selection-start-line="385" selection-start-column="18" selection-end-line="385" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/memSerevice/message/send.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="253" column="23" selection-start-line="253" selection-start-column="18" selection-end-line="253" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/llhb/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="140" column="18" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hyzl/EnterpriseData.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="192" column="60" selection-start-line="192" selection-start-column="46" selection-end-line="192" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/hyzl/controller/EnterpriseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="217" column="26" selection-start-line="217" selection-start-column="26" selection-end-line="217" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/environmentRequrie/controller/environmentDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/environmentDetail/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="682" column="46" selection-start-line="682" selection-start-column="46" selection-end-line="682" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/hyzl/model/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9698276">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/notice/model/Notic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7253385">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jfinal-1.8.jar!/com/jfinal/plugin/activerecord/Record.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3150685">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/recuitment/recuInfoAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.010914">
+          <caret line="196" column="29" selection-start-line="196" selection-start-column="29" selection-end-line="196" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jfinal-1.8.jar!/com/jfinal/plugin/activerecord/Model.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3452055">
+          <caret line="391" column="13" selection-start-line="391" selection-start-column="13" selection-end-line="391" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/recuitment/recuInfoPreview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4556618">
+          <caret line="120" column="68" selection-start-line="120" selection-start-column="68" selection-end-line="120" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/recruitment/model/RecuitmentInfomation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028790787">
+          <caret line="34" column="142" selection-start-line="34" selection-start-column="142" selection-end-line="34" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/zixun/zxDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/recuitment/recuInfoMore.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30695772">
+          <caret line="15" column="91" selection-start-line="15" selection-start-column="91" selection-end-line="15" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/recruitment/controller/RecuimentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.407408">
+          <caret line="219" column="41" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/recuitment/recuitmentinfomation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/sys/model/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="230" column="15" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/zixun/controller/ZiXunController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3520548">
+          <caret line="246" column="67" selection-start-line="246" selection-start-column="55" selection-end-line="246" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/recuitment/recuInfoDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.957708">
+          <caret line="14" column="125" selection-start-line="14" selection-start-column="125" selection-end-line="14" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/llhb/index_new.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/llhb/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="345" column="16" selection-start-line="345" selection-start-column="16" selection-end-line="345" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/llhb.log">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3442177">
+          <caret line="649" column="2" selection-start-line="649" selection-start-column="2" selection-end-line="649" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/llhb/index_new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044145875">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/filters/filter-production.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25143954">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/llhb/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028790787">
+          <caret line="216" column="25" selection-start-line="216" selection-start-column="25" selection-end-line="216" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="990" column="40" selection-start-line="990" selection-start-column="32" selection-end-line="990" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/backmana/controller/UserHomePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userhomepage/cfHomePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="67" selection-start-line="120" selection-start-column="67" selection-end-line="120" selection-end-column="67" />
+          <folding>
+            <marker date="1473819883000" expanded="true" signature="15758:15769" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userhomepage/hbHomePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="117" selection-start-line="131" selection-start-column="117" selection-end-line="131" selection-end-column="117" />
+          <folding>
+            <marker date="1473819775000" expanded="true" signature="13081:13094" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/auditList/productAudit/proDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infomaintain/infoAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15151516">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qdum/llhb/admana/model/AdLable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="209" column="93" selection-start-line="209" selection-start-column="93" selection-end-line="209" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ypcd/succeedCase/editCase.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.060606062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/filters/filter-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18480493">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>llhb:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39770114" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39770114" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39770114" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39770114" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|llhb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1367816" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39770114" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

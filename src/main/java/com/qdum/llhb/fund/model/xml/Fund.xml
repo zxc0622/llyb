@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql>
+    <select ID="queryUserAccountInfo">
+        <![CDATA[
+       SELECT
+	user_info.*, fund_info.fund
+FROM
+	(
+		SELECT
+			id,
+			login_name
+		FROM
+			sys_user
+		WHERE
+			del_flag = '0'
+	) user_info
+LEFT JOIN (
+	SELECT
+		user_id,
+		fund
+	FROM
+		tm_fund
+	WHERE
+		del_flag = '0'
+) fund_info ON user_info.id = fund_info.user_id
+WHERE user_info.login_name = ?
+        ]]>
+    </select>
+</sql>

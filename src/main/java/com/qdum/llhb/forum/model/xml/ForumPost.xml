@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql>
+    <select ID="ranklist">
+        <![CDATA[
+    (
+	#=========================日排行=========================
+	SELECT
+		tmp_user_info.id user_id,
+		tmp_user_info.login_name,
+		tmp_user_info.headImg,
+		tmp_user_info.total + CASE
+	WHEN ISNULL(day_ranklist.post_count) THEN
+		0
+	ELSE
+		day_ranklist.post_count
+	END post_count,
+	'd' AS rankListType
+FROM
+	(
+		SELECT
+			sys_user_temp.id,
+			sys_user_temp.login_name,
+			user_qq_temp.headImg,
+			user_total_post.total
+		FROM
+			(
+				SELECT
+					id,
+					login_name
+				FROM
+					sys_user
+				WHERE
+					del_flag = '0'
+			) AS sys_user_temp
+		LEFT JOIN (
+			SELECT
+				user_id,
+				headImg
+			FROM
+				sys_user_qq
+			WHERE
+				del_flag = '0'
+		) AS user_qq_temp ON sys_user_temp.id = user_qq_temp.user_id
+		RIGHT JOIN (
+			SELECT
+				tmp_users.id,
+				tmp_total_posts.total
+			FROM
+				(
+					SELECT
+						id
+					FROM
+						sys_user
+					WHERE
+						del_flag = '0'
+				) tmp_users,
+				(
+					SELECT
+						COUNT(*) total
+					FROM
+						forum_posts
+					WHERE
+						del_flag = '0'
+				) tmp_total_posts
+		) user_total_post ON sys_user_temp.id = user_total_post.id
+	) tmp_user_info
+LEFT JOIN (
+	SELECT
+		id,
+		board_id,
+		create_by,
+		create_date,
+		date_format(create_date, '%Y-%m-%d') AS create_day,
+		COUNT(
+			date_format(create_date, '%Y-%m-%d')
+		) AS post_count
+	FROM
+		forum_posts
+	WHERE
+		del_flag = '0'
+	AND date_format(create_date, '%Y-%m-%d') = date_format(now(), '%Y-%m-%d')
+	GROUP BY
+		create_by,
+		date_format(create_date, '%Y-%m-%d')
+) day_ranklist ON tmp_user_info.id = day_ranklist.create_by
+ORDER BY
+	tmp_user_info.total + CASE
+WHEN ISNULL(day_ranklist.post_count) THEN
+	0
+ELSE
+	day_ranklist.post_count
+END DESC
+LIMIT 0,
+ 9
+)
+UNION
+	(
+		#=========================周排行=========================
+		SELECT
+			tmp_user_info.id user_id,
+			tmp_user_info.login_name,
+			tmp_user_info.headImg,
+			tmp_user_info.total + CASE
+		WHEN ISNULL(week_ranklist.post_count) THEN
+			0
+		ELSE
+			week_ranklist.post_count
+		END post_count,
+		'w' AS rankListType
+	FROM
+		(
+			SELECT
+				sys_user_temp.id,
+				sys_user_temp.login_name,
+				user_qq_temp.headImg,
+				user_total_post.total
+			FROM
+				(
+					SELECT
+						id,
+						login_name
+					FROM
+						sys_user
+					WHERE
+						del_flag = '0'
+				) AS sys_user_temp
+			LEFT JOIN (
+				SELECT
+					user_id,
+					headImg
+				FROM
+					sys_user_qq
+				WHERE
+					del_flag = '0'
+			) AS user_qq_temp ON sys_user_temp.id = user_qq_temp.user_id
+			RIGHT JOIN (
+				SELECT
+					tmp_users.id,
+					tmp_total_posts.total
+				FROM
+					(
+						SELECT
+							id
+						FROM
+							sys_user
+						WHERE
+							del_flag = '0'
+					) tmp_users,
+					(
+						SELECT
+							COUNT(*) total
+						FROM
+							forum_posts
+						WHERE
+							del_flag = '0'
+					) tmp_total_posts
+			) user_total_post ON sys_user_temp.id = user_total_post.id
+		) tmp_user_info
+	LEFT JOIN (
+		SELECT
+			id,
+			board_id,
+			create_by,
+			create_date,
+			YEARWEEK(
+				date_format(create_date, '%Y-%m-%d')
+			) AS create_week,
+			COUNT(
+				YEARWEEK(
+					date_format(create_date, '%Y-%m-%d')
+				)
+			) AS post_count
+		FROM
+			forum_posts
+		WHERE
+			del_flag = '0'
+		AND YEARWEEK(
+			date_format(create_date, '%Y-%m-%d')
+		) = YEARWEEK(
+			date_format(now(), '%Y-%m-%d')
+		)
+		GROUP BY
+			create_by,
+			YEARWEEK(
+				date_format(create_date, '%Y-%m-%d')
+			)
+	) week_ranklist ON tmp_user_info.id = week_ranklist.create_by
+	ORDER BY
+		tmp_user_info.total + CASE
+	WHEN ISNULL(week_ranklist.post_count) THEN
+		0
+	ELSE
+		week_ranklist.post_count
+	END DESC
+	LIMIT 0,
+	9
+	)
+UNION
+	(
+		#=========================月排行=========================
+		SELECT
+			tmp_user_info.id user_id,
+			tmp_user_info.login_name,
+			tmp_user_info.headImg,
+			tmp_user_info.total + CASE
+		WHEN ISNULL(month_ranklist.post_count) THEN
+			0
+		ELSE
+			month_ranklist.post_count
+		END post_count,
+		'm' AS rankListType
+	FROM
+		(
+			SELECT
+				sys_user_temp.id,
+				sys_user_temp.login_name,
+				user_qq_temp.headImg,
+				user_total_post.total
+			FROM
+				(
+					SELECT
+						id,
+						login_name
+					FROM
+						sys_user
+					WHERE
+						del_flag = '0'
+				) AS sys_user_temp
+			LEFT JOIN (
+				SELECT
+					user_id,
+					headImg
+				FROM
+					sys_user_qq
+				WHERE
+					del_flag = '0'
+			) AS user_qq_temp ON sys_user_temp.id = user_qq_temp.user_id
+			RIGHT JOIN (
+				SELECT
+					tmp_users.id,
+					tmp_total_posts.total
+				FROM
+					(
+						SELECT
+							id
+						FROM
+							sys_user
+						WHERE
+							del_flag = '0'
+					) tmp_users,
+					(
+						SELECT
+							COUNT(*) total
+						FROM
+							forum_posts
+						WHERE
+							del_flag = '0'
+					) tmp_total_posts
+			) user_total_post ON sys_user_temp.id = user_total_post.id
+		) tmp_user_info
+	LEFT JOIN (
+		SELECT
+			id,
+			board_id,
+			create_by,
+			create_date,
+			date_format(create_date, '%Y-%m') AS create_month,
+			COUNT(
+				date_format(create_date, '%Y-%m')
+			) AS post_count
+		FROM
+			forum_posts
+		WHERE
+			del_flag = '0'
+		AND date_format(create_date, '%Y-%m') = date_format(now(), '%Y-%m')
+		GROUP BY
+			create_by,
+			date_format(create_date, '%Y-%m')
+	) month_ranklist ON tmp_user_info.id = month_ranklist.create_by
+	ORDER BY
+		tmp_user_info.total + CASE
+	WHEN ISNULL(month_ranklist.post_count) THEN
+		0
+	ELSE
+		month_ranklist.post_count
+	END DESC
+	LIMIT 0,
+	9
+	);
+        ]]>
+    </select>
+    <select ID="">
+
+    </select>
+</sql>
