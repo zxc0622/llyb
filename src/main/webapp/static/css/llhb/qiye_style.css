@@ -1,0 +1,155 @@
+
+/*鍙充晶骞垮憡*/
+.mall_ad{width:188px; float:right;}
+.mall_ad a{width:188px; height:180.6px;display:block; margin-bottom:6px; cursor:pointer;}
+.mall_ad a img{width:100%;height:100%;}
+
+/*宸︿晶鎮獥 start*/
+.gf_ad_left{width:80px;position:absolute;top:298px;left:50%; margin-left:-600px;z-index:16;}
+.gf_ad_left img{width:100%;}
+/*宸︿晶鎮獥 end*/
+
+/*鍙充晶鎮*/
+.gf_ad_right{width:108px; height:305px;  position:absolute; top:298px ; right:50%; margin-right:-622px; z-index:15;}
+.r_a_top{width:100%; position:absolute;z-index:17;}
+.r_a_down{width:100%; position:absolute; z-index:16; top:92px;}
+.r_a_down>div:nth-of-type(1){padding-top:18px;}
+.r_a_cc{width:100%;background-color:#5cb531; border-top:1px solid #efefef; padding:13px 0px; overflow:hidden;}
+.r_a_cc span{color:#FFF;display:block; float:left; width:57px; margin-left:13px;}
+.r_a_cc img{display:block; margin-left:8px; float:left; }
+.r_a_cell{ width:100%;padding:10px 0px ; background-color:#efefef;}
+.r_a_cell p{display:block; text-align:center;}
+.r_a_cell>p:nth-of-type(2){color:#5cb531; font-size:14px; }
+/*浼佷笟澶撮儴涓儴start*/
+.qiye_header_middle{height:160px;width:100%;background-color: #2B8F8D;}
+.qiye_h_m_main{width:1000px;margin:0 auto;height:100%;}
+.qy_h_m_m_l{float:left;color:#fff;margin-top: 50px;}
+.qy_h_m_m_l h5{font-size: 30px;}
+.qy_h_m_m_l p{margin-top: 15px;}
+.qy_h_m_m_r{float:right;margin-right: 80px;}
+.freehuiyuan{width:70px;height:103px;background: url(../../img/llhb/qiye_01.png) 0 0 no-repeat;}
+/*浼佷笟澶撮儴涓儴end*/
+.header_banner{margin:0;}
+/*鍐呭start*/
+
+/*褰撳墠浣嶇疆*/
+.main_row_1{margin:15px 0;overflow: hidden;}
+.cur_position{font-size:12px; color:#666; float:left;}
+.cur_time{font-size:12px; color:#666;float:right;}
+.qiye_main_top{width:100%;height:180px;}
+.qiye_main_top img{width:100%;height:100%;}
+/*涓棿寮�濮�*/
+.qiye_main_mid{overflow: hidden;}
+/*宸︿晶寮�濮�*/
+.qy_m_l{box-sizing: border-box;-moz-box-sizing: border-box;width:220px;float:left;}
+.qy_m_l_div{width:100%;margin-top: 15px;}
+.qy_m_l_div .qy_m_l_d_title{height:40px;line-height: 40px;color:#fff;padding:0 10px;background-color: #5Ec520;}
+.qy_m_l_d_title span{float:left;}
+.qy_m_l_d_title a{float:right;color:#fff;}
+.qy_m_l_d_main{border:1px solid #ccc;padding:10px;}
+.qy_m_l_d_main h5{font-size: 16px;}
+.qy_m_l_d_main p{margin:5px 0;color:#666;font-size: 12px;}
+.qy_m_l_div_freevip{height:40px;line-height: 40px;border:1px solid #ccc;border-top:none;padding:0 10px;}
+.qy_m_l_div_freevip img{float:left;}
+.qy_m_l_div_freevip .vip-type{margin-left:15px;font-size: 18px;color:#ee7800;font-weight: bold;}
+.qy_m_l_div_freevip .vip-time{margin-left:10px;font-size: 12px;color:#666;}
+/*point-list*/
+.point-list li{overflow: hidden;font-size: 12px;}
+.point-list li a{margin-left: 5px;float: left;width: 120px;position: relative;display: block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;color:#666;}
+.point-list li a:before{content: "";width: 3px;height: 3px;border-radius: 3px;background-color: #000;float: left;margin-top: 10px;margin-right: 5px;}
+.point-list li a:hover{color:#5Ec520;}
+.point-list li a:hover:before{background-color: #5Ec520;}
+.point-list li span{float:right;color:#666;}
+/*point-list 缁撴潫*/
+.qy_search{position: relative;}
+.qy_search input{width:140px;border:1px solid #ccc;font-size: 12px;color:#666;text-indent: 25px;height:25px;line-height: 25px;}
+.qy_search:before{content: "";display: block;width: 20px;height: 24px;background: transparent url("../../img/llhb/icon.png") no-repeat scroll -240px -120px;position: absolute;left: 4px;top: 3px;}
+.qy_search a{width:55px;height:26px;line-height: 25px;color:#fff;background-color: #5Ec520;display: inline-block;text-align: center;}
+
+/*宸︿晶缁撴潫*/
+/*鍙充晶寮�濮�*/
+.qy_m_r{box-sizing: border-box;-moz-box-sizing: border-box;width:760px;float:left;margin-left: 18px}
+.qy_m_r_div{width:100%;margin-top: 15px;border:1px solid #ccc;}
+.qy_m_r_div p{color:#666;font-size:12px;margin-top:3px;}
+.qy_m_r_div .qy_m_r_d_title{height:40px;line-height: 40px;color:#5Ec520;padding:0 10px;background-color: #EFEFEF;}
+.qy_m_r_d_title span{float:left;}
+.qy_m_r_d_title a{float:right;color:#5Ec520;}
+.qy_m_r_d_main{padding:20px;overflow: hidden;}
+.jieshaopic{width:200px;height:180px;float:left;}
+.jieshaopic img{width:100%;height:100%;}
+.jieshaotxt{float:right;width:500px;margin-left: 20px;color:#666;line-height: 30px;}
+.jieshaotxt a{color:#ee7800;}
+
+.pic-txt-div{width:132px;float:left;text-align: center;font-size: 12px;cursor: pointer;}
+.pic-txt-div:not(:nth-child(5n)){margin-right: 15px;}
+.pic-txt-div img{width:132px;height:132px;display: block;margin: 10px 0;}
+.pic-txt-div p{height:15px;line-height: 15px;margin-top: 3px;color:#666;overflow: hidden;}
+
+/*鍏徃妗ｆ琛ㄦ牸*/
+.qiye_dang_an{border-collapse: collapse;width:100%;color:#666;}
+.qiye_dang_an tr td,.qiye_dang_an tr th{padding:5px;border:1px solid #ccc;}
+.qiye_dang_an tr td{width:30%;}
+.qiye_dang_an tr th{text-align: center;align-items: center;border:1px solid #ccc;width:20%;}
+/*鍏徃妗ｆ琛ㄦ牸缁撴潫*/
+
+/*鍙充晶缁撴潫*/
+/*涓棿缁撴潫*/
+/*浼佷笟搴曢儴*/
+.qiye_main_bottom{width:100%;height:50px;border:1px solid #ccc;line-height: 50px;margin: 60px 0;color:#666;text-align: center;color:#666;}
+.qiye_main_bottom>*{margin:0 5px;}
+.qiye_main_bottom a{color:#666;}
+/*浼佷笟搴曢儴缁撴潫*/
+
+/*缈婚〉*/
+.fanye{margin-top:20px; margin-bottom:20px;overflow:hidden;}
+.fanye a{float:left; line-height:30px; margin-left:10px;}
+.fanye input[type=text]{border:1px solid #ccc; height:32px; float:left; margin-left:10px; cursor:pointer;}
+.fanye input[type=text]:focus{border:1px solid #ee7800;}
+.fanye input[type=button]{border:1px solid #ccc; height:34px;background-color:#fff; width:102px; text-align:center; float:left; margin-left:10px; cursor:pointer;}
+.fanye .fanye_btn input{width:30px;}
+
+.fanye .fanye_btn .cur_fanye_btn{background-color:#5cb531; border:1px solid #5cb531; color:white;}
+
+/*渚涘簲浜у搧鍒囨崲*/
+.changediv-a{font-size: 12px;height: 30px;line-height: 30px;padding: 0px 10px;margin-top: 10px;margin-left: 15px;}
+.changediv-a-sel{background-color: #fff;}
+/*渚涘簲浜у搧鍒囨崲缁撴潫*/
+
+/*鏂伴椈璇︽儏*/
+.xinwen_detail h5{text-align: center;font-size: 16px;font-weight: 400;}
+.xinwen_detail .sub-title{text-align: center;margin-bottom: 15px;}
+.xinwen_detail .sub-title span{margin:0 10px;}
+.xinwen_detail p:not(.sub-title){text-indent: 20px;color:#333;}
+.xinwen_detail img{display: block;width:90%;height:350px;margin:15px auto;}
+.xinwen_detail .btns{text-align: center;}
+.xinwen_detail .btns a{width:80px;height:30px;line-height: 30px;border:1px solid #ccc;color:#333;display: inline-block;margin:0 3px;}
+.xinwen_detail .btns a:hover{background-color: #5EC520;color:#fff;border:1px solid #5EC520;}
+.xinwen_detail .btns .has-none{background-color:#ccc;color:#fff;border-color:#ccc;}
+.xinwen_detail .btns .has-none:hover{background:#ccc;border-color:#ccc;}
+/*鏂伴椈璇︽儏 缁撴潫*/
+
+/*鑽ｈ獕璧勮川*/
+.qiye_rongyuzizhi table{border-collapse: collapse;width:100%;}
+.qiye_rongyuzizhi table th{padding:5px 0;text-align: center;border-bottom: 1px solid #ccc;}
+.qiye_rongyuzizhi table td{color:#666;padding:5px 0;text-align: center;border-bottom: 1px dashed #ccc;}
+.qiye_rongyuzizhi table tr td:first-child{width:100px;}
+.qiye_rongyuzizhi table td img{width:80px;height:60px;}
+.qiye_rongyuzizhi table tr:last-child td{border:none;}
+
+/*鑽ｈ獕璧勮川 缁撴潫*/
+/*鑱旂郴鏂瑰紡*/
+.qiye_lianxifangshi p{font-size: 12px;color:#666;overflow: hidden;}
+.qiye_lianxifangshi p span{float:left;}
+.qiye_lianxifangshi p .online-type{color:#ee7800;}
+.qiye_lianxifangshi p .online-type-r{color:#5ec520;}
+.qiye_lianxifangshi .communication{float:left;display: inline-block;width:25px;height:23px;background: url(../../img/llhb/mall_02.png) -70px 3px no-repeat;}
+/*鑱旂郴鏂瑰紡*/
+/*鍦ㄧ嚎鐣欒█*/
+.qiye_zaixianliuyan .row{overflow: hidden;margin-top: 15px;}
+.qiye_zaixianliuyan .row .row-title{line-height: 25px;float:left;width:56px;text-align: right;}
+.qiye_zaixianliuyan .row input[type=text]{float:left;width:200px;margin-left: 15px;height:25px;line-height: 25px;font-size: 12px;text-indent: 5px;border:1px solid #ccc;}
+.qiye_zaixianliuyan .row label{margin-top: 5px;margin-left: 10px;float:left;color:red;}
+.qiye_zaixianliuyan .row input:focus,.qiye_zaixianliuyan .row textarea:focus{border:1px solid #ee7800;}
+.qiye_zaixianliuyan .row textarea{padding:5px;float:left;margin-left: 15px;border:1px solid #ccc;}
+.qiye_zaixianliuyan .row a{float:left;width:120px;text-align:center;color:#fff;background-color: #5Ec520;height:30px;line-height: 30px;margin-left: 15px;}
+/*鍦ㄧ嚎鐣欒█*/

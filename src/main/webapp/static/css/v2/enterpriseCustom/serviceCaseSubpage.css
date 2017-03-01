@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局控制*/
+body{margin:0; padding:0; font-size:12px; font-family:"微软雅黑";}
+body{overflow:-Scroll;overflow-x:hidden;}
+/*重置浏览器默认样式*/
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none; border:0;}
+/*公共样式*/
+a:link,a:visited{color:#666; text-decoration:none;}
+a:hover{text-decoration:underline;}
+.service_work{width:1200px;height:98px;background-color:blue;margin:0 auto;background:url(../../../img/v2/enterpriseCustom/case.png) no-repeat;position:relative;margin-top: 40px;}
+.service_work .introduce_jjiee{position:absolute;left:100px;top:20px;}
+.service_time{width:1200px;margin:0 auto;margin-top:30px;}
+.service_time li{width:295px;height:390px;background-color:green;float:left;margin:0 5px 30px 0;position:relative;}
+
+/*每个案例*/
+.service_time .serviceCaseItem{position:relative;}
+.service_time .serviceCaseItem .box-bar21{position:absolute;top:7px;right:10px;z-index:9999;}
+.service_time .serviceCaseItem .box-bar21 a{color:#000;background-color:#f5f1f1;width:40px;height:25px;display:inline-block;border-radius:2px;text-align:center;line-height:25px;}
+.service_time .serviceCaseItem .zhe_z21{width:295px;height:390px;background-color:#000;opacity:0.7;position:absolute;display:none;z-index:999;cursor:move;top:0;}
+.caseNameForClick{cursor: pointer;}
+
+/*弹框*/
+.box20{position:fixed;width:812px;height:1024px;left:50%;overflow:auto;z-index:100;background-color:#fff;border:6px rgba(122,122,122,.6) solid;padding:1px;z-index:999999;}
+.box20 h2{height:35px;font-size:14px;background-color:#f6f6f6;position:relative;padding-left:10px;line-height:35px;color:#000;}
+.box20 h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(../../../img/v2/enterpriseCustom/flase.png)no-repeat;width:16px;height:16px;cursor: pointer;}
+.box20 .mainlist{padding-top: 44px;padding-left: 64px;}
+.box20 .mainlist h3{border-bottom:1px solid #e3e3e3;height:20px;margin-bottom:20px;text-align:center;}
+.box20 .mainlist span{display: inline-block;width: 62px;padding-bottom: 15px;text-align: center;}
+.box20 .mainlist input{border: 1px solid #8f8e94;height: 34px;width: 484px;margin: 0 5px 0 10px;font-size: 16px;text-indent: 5px;}   
+.box20 .mainlist .ensure a{background-color: #145f00;width: 120px;text-align: center;height: 36px;display: inline-block;line-height: 36px;border-radius: 4px;color: #fff;margin-left: 10px;cursor: pointer;font-size: 16px;text-decoration: none;} 
+.box20 .mainlist .ensure{margin-top: 50px;margin-left: 96px;height: 80px;}
+#img{width:25px;height:25px;display:block; border:1px solid #d3d3d3;margin:10px 0 0 20px;}
+#TB_overlayBG{background-color:#000;position:absolute;z-index:9999;left:0;top:0;display:none;width:100%;height:100%;opacity:0.7;filter: alpha(opacity=70);-moz-opacity: 0.7;z-index:99;}
+.biao_ti{height:34px;line-height:34px;font-size:16px;width:92px;float:left;margin-right:5px;} 
+.mt{margin-top:20px;}
+.cases1{margin-left:10px;width:235px;height:34px;border:1px solid #8f8e94;}
+.industrys1{margin-left:10px;width:235px;height:34px;border:1px solid #8f8e94;float:left;}
+.industrys2{margin:0 0 20px 16px;width:235px;height:34px;border:1px solid #8f8e94;float:left;}
+.addresss1{margin-left:10px;width:155px;height:34px;border:1px solid #8f8e94;float:left;}
+.addresss2{margin-left:10px;width:156px;height:34px;border:1px solid #8f8e94;float:left;}
+.addresss3{margin-left:10px;width:155px;height:34px;border:1px solid #8f8e94;float:left;margin-bottom:20px;}
+.ta{border: 1px solid #8f8e94;height: 34px;width: 484px;margin: 0 5px 0 10px;font-size: 16px;text-indent: 5px;}
+.pageindex{width: 1200px;height: 60px;margin: 0 auto;}
+.delBox{position: fixed;width: 400px;height: 150px;left: 50%;background-color: #fff;border: 6px rgba(122,122,122,.6) solid;padding: 1px;z-index: 999999;}
+.delBox h2{height: 35px;font-size: 14px;background-color: #f6f6f6;position: relative;padding-left: 10px;line-height: 35px;color: #000;}
+.delBox h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(../../../img/v2/enterpriseCustom/flase.png)no-repeat;width:16px;height:16px;cursor: pointer;}
+.pcon{margin-top: 26px;text-indent: 4em;}
+.delensure{margin-top: 28px;margin-left: 200px;height: 40px;}
+.del_sure{background-color: #145f00;width: 60px;text-align: center;height: 26px;display: inline-block;line-height: 26px;border-radius: 4px;color: #fff;margin-left: 10px;cursor: pointer;font-size: 16px;text-decoration: none;}
+.del_cancel{background-color: #dedede;width: 60px;text-align: center;height: 26px;display: inline-block;line-height: 26px;border-radius: 4px;color: #fff;margin-left: 10px;cursor: pointer;font-size: 16px;text-decoration: none;}
+option{color:#000;font-size: 14px;}
+

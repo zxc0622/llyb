@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,address,big,cite,code,del,em,font,img,ins,small,strong,var,b,u, i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend{margin:0;padding:0;}
+body{ background:#FFFFFF; color:#333333; font-family:"微软雅黑",Arial,Lucida,Verdana,Helvetica,sans-serif; font-size:12px; line-height:150%; }
+a:link, a:visited{ color:#333333; text-decoration:none; }
+a:hover{ color:#008f01; }
+a:active{ color:#990000; }
+ol, ul{ list-style: none outside none;}
+img{vertical-align:top;border:0;}
+.biggest_box{width:1200px;margin:0 auto;margin-top:20px;overflow:hidden;}
+.particulars_left{width:852px;float:left;}
+.tb-pic a{display:table-cell;text-align:center;vertical-align:middle;}
+
+.tb-pic a img{vertical-align:middle;}
+
+.tb-pic a{*display:block;*font-family:Arial;*line-height:1;}
+
+.tb-thumb{margin:10px 0 0;overflow:hidden;width:368px;}
+
+.tb-thumb li{background:none repeat scroll 0 0 transparent;float:left;height:73px;margin:0 13px 0 0;overflow:hidden;padding:1px;}
+
+.tb-s310, .tb-s310 a{height:340px;width:340px;}
+
+.tb-s310, .tb-s310 img{max-height:340px;max-width:340px;}
+
+.tb-s310 a{*font-size:271px;}
+
+.tb-s40 a{*font-size:35px;}
+
+.tb-s40, .tb-s40 a{height:72px;width:72px;}
+
+.tb-booth{border:1px solid #CDCDCD;position:relative;z-index:1;}
+
+.tb-thumb .tb-selected{background:none repeat scroll 0 0 #C30008;height:72px;padding:2px;}
+
+.tb-thumb .tb-selected div{background-color:#FFFFFF;border:medium none;}
+
+.tb-thumb li div{border:1px solid #CDCDCD;}
+
+div.zoomDiv{z-index:999;position:absolute;top:0px;left:0px;width:200px;height:200px;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+
+div.zoomMask{position:absolute;background:url("../../../img/v2/hbshop/mask.png") repeat scroll 0 0 transparent;cursor:move;z-index:1;}
+.Joedar_from{width:470px;height:426px;float:left;margin:0 0 60px 40px;position:relative;}
+.Joedar_from h2{font-size:22px;line-height:24px;font-weight:normal;}
+.Joedar_from .standard{width:470px;height:100px;background:url(../../../img/v2/hbshop/standard.png) no-repeat;margin: 26px 0 40px 0;}
+.Joedar_from .Joedar_anli a{width:200px;height:48px;background-color:#ee7800;display:inline-block;text-align:center;line-height:48px;color:#fff;font-size:16px;}
+.Joedar_from .Joedar_anli .understand{position:absolute;bottom:0;right:206px;}
+.particulars_left .Description{width:852px;clear:both;overflow:hidden;padding-bottom: 50px;}
+.details_tab{width:750px;}
+.details_tab .hd span{float: left;width: 100px;height:47px;text-align: center; line-height: 47px;font-size: 14px;}  
+.details_tab .hd span.current{color:#008f01;}
+.details_tab .bd{clear: both;} 
+.details_tab .bd ul{list-style: none;display: none;margin-top:30px; }
+.details_tab .bd ul li{line-height:22px;font-size:14px;}
+.details_tab .bd ul li .pro_desc{margin:0 0 36px 22px;text-align: left;color: #666;word-break: break-all;}
+.details_tab .bd ul.cur{display: block;}
+.details_tab .bd ul li .cumulative{width:850px;height:160px;border:1px solid #7d7d7d;margin-top:50px;}
+.details_tab .bd ul li .cumulative h5{height:40px;
+	background-color:#008f01;
+	color:#fff;font-size:16px;
+	font-weight: normal;
+	line-height:34px;
+	padding-left:20px;
+}
+.details_tab .bd ul li .cumulative .rate{width:200px;margin-left:20px;float:left;}
+.details_tab .bd .estimate{width:852px;display:block;}
+.details_tab .bd .estimate li{border-bottom:1px dashed #dfdfdf;position:relative;height:85px;}
+.Looked{width:218px;height:600px;float:right;margin-right:32px;}
+.Looked h5{width:218px;text-align:center;line-height:30px;border-bottom:1px solid #bebebe;margin-bottom: 20px;}
+.Looked .ceramic{margin-bottom:30px;}
+.Looked .ceramic span{display:block;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

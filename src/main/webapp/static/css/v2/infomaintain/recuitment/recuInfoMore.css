@@ -1,0 +1,36 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;text-decoration: none;list-style: none;font-size: 12px;font-family:"微软雅黑";}
+body{overflow-x:hidden;}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none;}
+/*公共样式*/
+a:link,a:visited{color:#666; text-decoration:none;}
+a:hover{color:#008f00;}
+.recruitment{width:1200px;overflow:hidden;margin:0 auto;margin-top:43px;}
+.recruitment .professional_work{width:200px;float:left;}
+.recruitment .operation{width:200px;height:40px;color:#fff;text-align:center;line-height:40px;margin-bottom:4px;font-size:16px;background:url(../images/left_menu.png) 42px 13px no-repeat;background-color:#008f00;}
+.recruitment .professional_work li.current{background:url(../images/border.png) no-repeat;color:#008f00;}
+.recruitment .professional_work li{width:200px;height:43px;line-height:43px;color:#000;text-align:center;font-size:16px;border-bottom:1px solid #eefbe5;cursor:pointer;}
+.recruitment .professional_work li:hover{background:url(../images/border.png) no-repeat;}
+.recruitment .write{float:left;width:1200px;overflow:hidden;}
+.recruitment .caption{width:1200px;/* height:30px; */margin:0 auto;}
+.recruitment .caption table{margin-bottom:40px;}
+.recruitment .caption tr:hover{background-color:#fafafa;color:#69b83a;}
+.recruitment .caption th{text-align:left;font-size:14px;padding:0 0 20px 10px;width:21%;font-weight:bold;cursor:pointer;}
+.recruitment .caption td{height:38px;font-size:14px;
+	width:20%;
+	border-bottom:1px dashed #e6e6e6;
+	padding-left:10px;
+	cursor:pointer;
+
+}
+.recruitment .caption td a{
+	width:230px;
+	display:block;
+	font-size:14px;
+	 overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.recruitment .caption td .location{text-align:center;}
+.recruitment .caption td  .number{text-align:center;}
+.recruitment .caption td  .date{text-align:center;}

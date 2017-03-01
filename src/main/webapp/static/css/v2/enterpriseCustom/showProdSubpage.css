@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局控制*/
+body{margin:0; padding:0; font-size:12px; font-family:"微软雅黑";}
+body{overflow:-Scroll;overflow-x:hidden;}
+/*重置浏览器默认样式*/
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none; border:0;}
+/*公共样式*/
+a:link,a:visited{color:#666; text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+/*左侧栏切换*/
+.Product_show{width:1200px;height:98px;background-color:blue;margin:0 auto;background:url(/llhb/static/img/v2/enterpriseCustom/Product_show.png) no-repeat;position:relative;margin-top: 40px;}
+.Product_show .Product_cp{position:absolute;left:100px;top:20px;}
+.Joedar_facility{width:1200px;height:700px;margin:0 auto;clear:both;margin-top:40px;position:relative;}
+.clear{clear:both;}
+.Joedar_facility .main-page{height:300px;margin-top:20px;}
+.Joedar_facility .main-page .left, .main-page .right{float:left;width:248px;height:512px;background-color:green;}
+.Joedar_facility .main-page .nav-back{width:220px;height:300px;}
+.Joedar_facility .main-page .nav{position:relative;margin-top:-300px;width:60px;text-align:center;font-size:14px;font-family:"微软雅黑";color:#fff;}
+.Joedar_facility .main-page .nav div{height:54px;line-height:54px;width:248px;color:#fff;font-size:18px;}
+.Joedar_facility .main-page .nav div.on{background:#118d5a;width:248px;}
+.Joedar_facility .main-page .right{width:620px;margin-left:20px;background:none;}
+.Joedar_facility .main-page .content-back{width:620px;height:300px;background:#fff;opacity:.3;}
+.Joedar_facility .main-page .content{position:relative;width:950px;height:640px;margin-top:-300px;overflow:hidden;}
+.Joedar_facility .main-page .content div{width:960px;height:280px;background:#fff;text-align:center;}
+.Joedar_facility .main-page .content .contentsub{width:960px;height:640px;background:#fff;text-align:center;}
+.Joedar_facility .main-page .content div ul{height:576px;}
+.Joedar_facility .main-page .content div li{float:left;margin:10px 19px 30px 0 ;position:relative;height:260px;}
+.Joedar_facility .main-page .content div li img{max-width: 219px;max-height: 260px;}
+.Joedar_facility .main-page .content .zhe_z{width:219px;height:260px;background-color:#000;opacity:0.7;position:absolute;top:0;cursor:move;z-index:999;}
+.Joedar_facility .main-page .content .box-bar2 {width:219px;height:260px;position:absolute;top:5px;right:5px;z-index:9999;background:none;}
+.Joedar_facility .main-page .content .box-bar2 a{color:#000;background-color:#f5f1f1;width:40px;height:25px;display:inline-block;border-radius:2px;text-align:center;line-height:25px;margin-right:5px;float:right;right:0;}
+/* box2 */
+.Joedar_facility .box2{position:fixed;width:770px;height:380px;z-index:100;background-color:#fff;border:6px rgba(122,122,122,.6) solid;padding:1px;z-index:9999;}
+.Joedar_facility .box2 h2{height:35px;font-size:14px;background-color:#f6f6f6;position:relative;padding-left:10px;line-height:35px;color:#000;}
+.Joedar_facility .box2 h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(/llhb/static/img/v2/enterpriseCustom/flase.png)no-repeat;width:16px;height:16px;}
+.Joedar_facility .box2 .mainlist{padding:10px;height:400px;}
+.Joedar_facility .box2 .mainlist .page_one .page_name{float:left;width:220px;margin-left:20px;height:30px;line-height:40px;text-align:left;color:#000;}
+.Joedar_facility .box2 .mainlist .page_one li{float:left;width:150px;height:30px;text-align:center;line-height:40px;color:#000;}
+.Joedar_facility .box2 .mainlist .pagenav-status{width:15px;height:15px;margin-top:12px;}
+.Joedar_facility .box2 .mainlist .index1{height:40px;width:690px;border-bottom:1px dashed #dfdfdf;margin:0 auto;}
+.Joedar_facility .box2 .mainlist .index1 .decorate{display:inline-block;width:70px;height:24px;border:1px solid #dfdfdf;border-radius:4px;line-height:24px;margin-top:7px;}
+.Joedar_facility .box2 .mainlist h3{border-bottom:1px solid #e3e3e3;height:20px;margin-bottom:20px;text-align:center;}
+.Joedar_facility .box2 .mainlist span{display: inline-block;width: 62px;padding-bottom: 15px;text-align: center;}
+.Joedar_facility .box2 .mainlist input{border: 1px solid #e3e3e3;height: 25px;width: 90px;margin: 0 5px 0 10px;}  
+.Joedar_facility .box2 .mainlist .ensure .abolish{background-color: #d9d9d9;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #000;padding: 0;} 
+.Joedar_facility .box2 .mainlist .ensure a{background-color:#145f00;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #fff;margin-left:10px;} 
+.Joedar_facility .box2 .mainlist .ensure{position:absolute;right:36px;bottom:24px;}
+#img{width:25px;height:25px;display:block; border:1px solid #d3d3d3;margin:10px 0 0 20px;}
+/* .box2 .mainlist li{height:24px;line-height:24px;float:left;color:#000;} */
+.Joedar_facility .box2 .mainlist dt {float:left;width:220px;margin-left:20px;height:30px;line-height:40px;}
+.Joedar_facility .box2 .mainlist dt img{display:none;}
+.Joedar_facility .box2 .mainlist dd{float:left;width:150px;height:30px;text-align:center;line-height:40px;}
+.Joedar_facility .box2 .mainlist dd a{margin-top:8px;}
+.Joedar_facility .box2 .mainlist li span{margin:0 5px 0 0;font-family:"宋体";font-size:12px;font-weight:400;color:#ddd;}
+#TB_overlayBG{background-color:#000;position:absolute;z-index:9999;left:0;top:0;display:none;width:100%;height:100%;opacity:0.7;filter: alpha(opacity=50);-moz-opacity: 0.5;z-index:9999;} 
+
+/*弹框*/
+.box20{position:fixed;width:812px;overflow:auto;background-color:#fff;border:6px rgba(122,122,122,.6) solid;padding:1px;z-index:999999;}
+.box20 h2{height:35px;font-size:14px;background-color:#f6f6f6;position:relative;padding-left:10px;line-height:35px;color:#000;}
+.box20 h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(../../../img/v2/enterpriseCustom/flase.png)no-repeat;width:16px;height:16px;cursor: pointer;}
+.box20 .mainlist{height:300px;padding-top: 44px;padding-left: 64px;padding-bottom: 60px;}
+.box20 .mainlist h3{border-bottom:1px solid #e3e3e3;height:20px;margin-bottom:20px;text-align:center;}
+.box20 .mainlist span{display: inline-block;width: 62px;padding-bottom: 15px;text-align: center;}
+.box20 .mainlist input{border: 1px solid #e3e3e3;height: 34px;width: 484px;margin: 0 5px 0 10px;font-size: 16px;text-indent: 5px;}   
+.box20 .mainlist .ensure a{background-color: #145f00;width: 120px;text-align: center;height: 36px;display: inline-block;line-height: 36px;border-radius: 4px;color: #fff;margin-left: 10px;cursor: pointer;font-size: 16px;text-decoration: none;} 
+.box20 .mainlist .ensure{margin-top: 50px;margin-left: 96px;height: 80px;}
+#img{width:25px;height:25px;display:block; border:1px solid #d3d3d3;margin:10px 0 0 20px;}
+#TB_overlayBG{background-color:#000;position:absolute;z-index:9999;left:0;top:0;display:none;width:100%;height:100%;opacity:0.7;filter: alpha(opacity=70);-moz-opacity: 0.7;z-index:99;}
+.biao_ti{height:34px;line-height:34px;font-size:16px;width:92px;float:left;background:url() right no-repeat;margin-right:5px;text-align:right;} 
+.mt{margin-top:20px;}

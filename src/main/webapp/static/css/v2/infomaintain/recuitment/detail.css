@@ -1,0 +1,6 @@
+.xinwen_detail_item{text-align: left;width: 1200px;height:30px;font-family: 宋体;font-size: 14px;}
+.xinwen_detail_item *{font-family: 宋体;font-size: 14px;}
+.xinwen_detail_item_span{display: inline-block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:200px;}
+.xinwen_detail_item_span_1{display: inline-block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:320px;}
+.xinwen_detail_item_desc{text-align: left;width: 710px;font-family: 宋体;font-size: 14px;}
+.xinwen_detail_item_desc p{font-family: 宋体;font-size: 14px;}

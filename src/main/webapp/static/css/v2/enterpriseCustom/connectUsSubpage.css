@@ -1,0 +1,32 @@
+ @charset "utf-8";
+/* CSS Document */
+/*全局控制*/
+body{margin:0; padding:0; font-size:12px; font-family:"微软雅黑";}
+body{overflow:-Scroll;overflow-x:hidden;}
+/*重置浏览器默认样式*/
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none; border:0;}
+/*公共样式*/
+a:link,a:visited{color:#666; text-decoration:none;}
+a:hover{text-decoration:underline;}
+.Contact_us{width:1200px;height:98px;margin:0 auto;background:url(/llhb/static/img/v2/enterpriseCustom/Contact_us.png) no-repeat;position:relative;margin-top: 40px;}
+.Contact_us .Contact_us_we{position:absolute;left:100px;top:20px;}
+.Contact_address{width:1200px;height:400px;margin:0 auto;margin-top:68px;position:relative;}
+.Contact_address .box-bar49{position:absolute;top:7px;right:10px;z-index:9999;}
+.Contact_address .box-bar49 a{color:#000;background-color:#f5f1f1;width:40px;height:25px;display:inline-block;border-radius:2px;text-align:center;line-height:25px;}
+.Contact_address .zhe_z49{width:1200px;height:420px;background-color:#000;opacity:0.7;position:absolute;display:none;z-index:999;cursor:move;}
+.Contact_address .box49{position:fixed;width:600px;left:50%;height:500px;z-index:100;background-color:#fff;border:6px rgba(122,122,122,.6) solid;padding:1px;z-index:10000;}
+.Contact_address .box49 h2{height:35px;font-size:14px;background-color:#f6f6f6;position:relative;padding-left:10px;line-height:35px;color:#000;}
+.Contact_address .box49 h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(/llhb/static/img/v2/enterpriseCustom/flase.png)no-repeat;width:16px;height:16px;}
+.Contact_address .box49 .mainlist{padding:10px;height:300px;}
+.Contact_address .box49 .mainlist h3{border-bottom:1px solid #e3e3e3;height:20px;margin-bottom:20px;text-align:center;}
+.Contact_address .box49 .mainlist span{display: inline-block;width: 62px;padding-bottom: 15px;text-align: center;}
+.Contact_address .box49 .mainlist input{border: 1px solid #e3e3e3;height: 25px;width: 90px;margin: 0 5px 0 10px;}  
+.Contact_address .box49 .mainlist .ensure .abolish{background-color: #d9d9d9;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #000;padding: 0;} 
+.Contact_address .box49 .mainlist .ensure a{background-color:#145f00;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #fff;margin-left:10px;} 
+.Contact_address .box49 .mainlist .ensure{position:absolute;right:47px;bottom:30px;}
+#img{width:25px;height:25px;display:block; border:1px solid #d3d3d3;margin:10px 0 0 20px;}
+.Contact_address .address_left{width:600px;height:400px;float:left;}
+.Contact_address .address_left h2{font-size:28px;padding:55px 0 25px 42px;}
+.Contact_address .address_left p{font-size:18px;line-height:40px;padding-left:42px;}
+.Contact_address .address_map{width:600px;height:400px;float:left;background-color:rgba(128, 128, 64, 0.25);}
+.TB_overlayBG{background-color: #000;position: absolute;z-index: 9999;left: 0;top: 0;display: none;width: 100%;height: 100%;opacity: 0.7;filter: alpha(opacity=70);-moz-opacity: 0.7;z-index: 99;}

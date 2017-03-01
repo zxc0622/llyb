@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+	<title>FlexSlider 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="../flexslider.css" type="text/css" media="screen" />
+</head>
+<body class="loading">
+	<div class="flexslider">
+	  <ul class="slides">
+		<li>
+			<img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+			</li>
+			<li>
+			<img src="images/kitchen_adventurer_lemon.jpg" />
+			</li>
+			<li>
+			<img src="images/kitchen_adventurer_donut.jpg" />
+			</li>
+			<li>
+			<img src="images/kitchen_adventurer_caramel.jpg" />
+			</li>
+	  </ul>
+	</div>
+<a href="#" class="test">click me!</a>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script defer src="../jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+  
+	var sliderObj;
+	$(".test").click(function(){
+		$(".slides li:not(.clone)").each(function(){
+			sliderObj.removeSlide($(this));
+		});
+		
+		var li='<li><img src="images/kitchen_adventurer_donut.jpg" /></li>';
+		var i;
+		for(i=1;i<5;i++){
+			liEl=$(li);
+			liEl.attr("id","li"+i);
+			$(".slides").append(liEl);
+			sliderObj.currentSlide=1;
+			sliderObj.animatedSlides=1;
+			sliderObj.animatingTo=1;
+			sliderObj.addSlide($("#li"+i),i);
+		}
+		sliderObj.ensureAnimationEnd=i-1;
+		sliderObj.pagingCount=i-1;
+		sliderObj.vars.startAt=0;
+		sliderObj.play();
+		console.log(sliderObj);
+	});
+  
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+		  sliderObj=slider;
+		  console.log(sliderObj);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

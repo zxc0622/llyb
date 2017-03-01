@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family:"微软雅黑";
+}
+body{overflow-x:hidden;}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none;}
+.Enterprise{width:1200px;overflow: hidden;margin:0 auto;}
+.particulars{width:1198px;height:272px;border:1px solid #efefef;position:relative;margin-bottom:20px;}
+.particulars h3{width:684px;float:left;margin:30px 0  28px 24px;font-size: 20px;font-weight: bold;}
+.particulars .icons{width:150px;float:left;margin-top:30px;}
+.particulars .icons .actor{width:27px;height:27px;display:block;float:left;background:url(/llhb/static/img/v2/enterpriseLibrary/approve.png) no-repeat;background-position: 0 -35px;margin-right:6px;}
+.particulars .icons .firm{width:27px;height:27px;display:block;float:left;background:url(/llhb/static/img/v2/enterpriseLibrary/approve.png) no-repeat;background-position: -27px 0;margin-right:6px;}
+.particulars .icons .personal{width:27px;height:27px;display:block;float:left;background:url(/llhb/static/img/v2/enterpriseLibrary/approve.png) no-repeat;background-position: -60px -35px;margin-left: 6px;}
+.particulars .circumstance{width:287px;height:274px;float:right;text-align: center;vertical-align: middle;display: table-cell;position:absolute;right:0;top:0;}
+.particulars .circumstance p{width:287px;height:272px;text-align: center;vertical-align: middle;display: table-cell;}
+/* .particulars .circumstance p img{max-width:287px;max-height:270px;} */
+.particulars .circumstance p img{}
+/*企业分类*/
+.mall_areas{overflow:hidden; margin-bottom:15px;margin-top:14px;}
+.mall_areas .area_cont{width:1198px; border:1px solid #ccc; overflow:hidden;margin:0 auto;background-color:#fafafa;}
+.mall_areas .area_cont li{float:left; padding:0 6px;cursor:pointer;padding-top:11px;}
+.mall_areas .area_cont li:hover{color:#5ec420;}
+.mall_areas .area_cont .cur_area{color:#5ec420;}
+/*所在地区*/
+.mall_area{overflow:hidden; margin-bottom:24px;margin-top:14px;}
+.mall_area .area_cont{width:1198px; border:1px solid #ccc; overflow:hidden;margin:0 auto;background-color:#fafafa;}
+.mall_area .area_cont li{float:left; padding:0 6px;cursor:pointer;padding-top:15px;}
+.mall_area .area_cont li:hover{color:#5ec420;}
+.mall_area .area_cont .cur_area{color:#5ec420;}

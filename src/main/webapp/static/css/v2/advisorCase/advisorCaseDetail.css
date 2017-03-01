@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family:"微软雅黑";
+}
+body{overflow-x:hidden;}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none;}
+.Star_case_details{width:1200px;margin:0 auto;overflow:hidden;}
+.Text_details{width:800px;float:left;margin-right:100px;}
+.Text_details .treatment_project{width:800px;}
+.Text_details .treatment_project h2{font-size:32px;font-weight:normal;margin:28px 0;height:32px;}
+.Text_details .treatment_project p{font-size:14px;padding-top: 18px;height: 15px;}
+.Text_details .treatment_project span{font-size:14px;color:#7d7d7d;}
+.Text_description{width:800px;overflow:hidden;margin-top:30px;}
+.Text_description p{text-indent: 2em;font-size:14px;line-height:30px;}
+.other_case{width:300px;float:left;}
+.other_case .Ad_Image{width:300px;height:150px;padding-top:60px;}
+.other_case_bottom{width:300px;margin-top:35px;}
+.other_case_bottom h4{font-size:16px;margin-bottom:15px;}
+.other_case_bottom li{width:300px;height:193px;margin-bottom:17px;position:relative;}
+.other_case_bottom li .lucency{position:absolute;width:300px;height:33px;background: rgba(0, 0, 0, 0.7);filter:alpha(opacity=70);color:#fff;position:absolute;bottom:0;font-size:18px;font-weight:bold;text-align:center;line-height:33px;}
+.other_case_bottom li .lucency2{position:absolute;width:300px;height:33px;background: rgba(0, 0, 0, 0.7);filter:alpha(opacity=70);color:#fff;position:absolute;bottom:0;font-size:18px;font-weight:bold;text-align:center;line-height:33px;}
+.other_case_bottom li .lucency3{position:absolute;width:300px;height:33px;background: rgba(0, 0, 0, 0.7);filter:alpha(opacity=70);color:#fff;position:absolute;bottom:0;font-size:18px;font-weight:bold;text-align:center;line-height:33px;}
+.other_case_bottom li .lucency4{position:absolute;width:300px;height:33px;background: rgba(0, 0, 0, 0.7);filter:alpha(opacity=70);color:#fff;position:absolute;bottom:0;font-size:18px;font-weight:bold;text-align:center;line-height:33px;}
+/* .other_case_bottom li {width:300px;height:193px;margin-bottom:17px;position:relative;} */
+.other_case_bottom li img{width:300px;height:193px;}

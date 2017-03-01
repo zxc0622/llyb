@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family:"微软雅黑";
+}
+body{overflow-x:hidden;}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none;}
+.informations{width:1200px;margin:0 auto;overflow: hidden;margin-bottom: 60px;}
+.Text_details{width:834px;float:left;overflow:hidden;}
+.Text_details .treatment_project{width:834px;}
+.Text_details .treatment_project h2{font-size:32px;font-weight:normal;margin:28px 0;}
+.Text_details .treatment_project p{font-size:14px;padding-top: 18px;height: 15px;}
+.Text_details .treatment_project span{font-size:14px;color:#7d7d7d;}
+.Text_description{width:800px;overflow:hidden;margin-top:30px;}
+.Text_description p{text-indent: 2em;font-size:14px;line-height:30px;}
+.other_cases{width:300px;float:right;}
+.other_cases .Ad_Image{width:300px;height:150px;padding-top:60px;}
+.hots{width:300px;overflow:hidden;margin-top:35px;}
+.hots h4{font-size:16px;margin-bottom:15px;}
+.hots li{width:300px;height:193px;margin-bottom:17px;position:relative;}
+.hots li .lucency{position:absolute;width:300px;height:33px;background: rgba(0, 0, 0, 0.7);filter:alpha(opacity=70);color:#fff;position:absolute;bottom:0;font-size:18px;font-weight:bold;text-align:center;line-height:33px;}
+.hots li .lucency2{position:absolute;width:300px;height:33px;background: rgba(0, 0, 0, 0.7);filter:alpha(opacity=70);color:#fff;position:absolute;bottom:0;font-size:18px;font-weight:bold;text-align:center;line-height:33px;}
+.hots li .lucency3{position:absolute;width:300px;height:33px;background: rgba(0, 0, 0, 0.7);filter:alpha(opacity=70);color:#fff;position:absolute;bottom:0;font-size:18px;font-weight:bold;text-align:center;line-height:33px;}
+.hots li .lucency4{position:absolute;width:300px;height:33px;background: rgba(0, 0, 0, 0.7);filter:alpha(opacity=70);color:#fff;position:absolute;bottom:0;font-size:18px;font-weight:bold;text-align:center;line-height:33px;}
+.handover{width:1200px;margin:0 auto;clear:both;}
+.handover p{width:250px;float:left;margin-right: 130px;padding-top: 20px;padding-bottom: 50px;cursor:pointer;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+/*资讯子页的样式*/
+.Text_descriptions{width:834px;overflow:hidden;margin-top:40px;}
+.Text_descriptions .Information_list{width:834px;height:132px;margin-bottom:30px;}
+.Text_descriptions .Information_list .list_img{width:200px;height:132px;float:left;}
+.Text_descriptions .Information_list .list_img p{
+	width:200px;
+	height:132px;
+	 text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    *display:inline;
+}
+.Text_descriptions .Information_list .list_img p img{max-width:200px;max-height:132px;_height:132px;+display:block;table-layout:fixed;}
+.Text_descriptions .Information_list .Vtion{width:614px;
+	height:132px;
+	float:left;
+	margin-left:20px;
+	position:relative;
+}
+.Text_descriptions .Information_list .Vtion h2{
+	font-size:18px;
+	width:614px;
+	height:18px;
+	line-height:16px;
+	 overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Text_descriptions .Information_list .Vtion p{
+	width:614px;
+	font-size:16px;
+	margin-top:12px;
+}
+.Text_descriptions .st1{font-size:14px;position: absolute;left:0;bottom:0;color:#7d7d7d;}
+.Text_descriptions .st2{font-size:14px;position: absolute;right:0;bottom:0;color:#7d7d7d;}

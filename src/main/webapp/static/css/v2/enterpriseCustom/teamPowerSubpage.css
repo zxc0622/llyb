@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局控制*/
+body{margin:0; padding:0; font-size:12px; font-family:"微软雅黑";}
+body{overflow:-Scroll;overflow-x:hidden;}
+/*重置浏览器默认样式*/
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none; border:0;}
+/*公共样式*/
+a:link,a:visited{color:#666; text-decoration:none;}
+a:hover{text-decoration:underline;}
+.team_strength{width:1200px;height:98px;margin:0 auto;background:url(/llhb/static/img/v2/enterpriseCustom/team.png) no-repeat;position:relative;margin-top: 40px;}
+.team_strength .team_sl{position:absolute;left:100px;top:20px;}
+.team_figure{width:1200px;height:340px;position:relative;background-color:pink;margin:0 auto;background:url(/llhb/static/img/v2/enterpriseCustom/team_figure.jpg) no-repeat;}
+
+.team_figure .box-bar41{position:absolute;top:7px;right:10px;z-index:9999;}
+.team_figure .box-bar41 a{color:#000;background-color:#f5f1f1;width:40px;height:25px;display:inline-block;border-radius:2px;text-align:center;line-height:25px;}
+.team_figure .zhe_z41{width:1200px;height:340px;background-color:#000;opacity:0.7;position:absolute;display:none;z-index:999;cursor:move;}
+.team_figure .box41{position:fixed;width:600px;left:50%;height:200px;z-index:100;background-color:#fff;border:6px rgba(122,122,122,.6) solid;padding:1px;z-index:999999;}
+.team_figure .box41 h2{height:35px;font-size:14px;background-color:#f6f6f6;position:relative;padding-left:10px;line-height:35px;color:#000;}
+.team_figure .box41 h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(/llhb/static/img/v2/enterpriseCustom/flase.png)no-repeat;width:16px;height:16px;}
+.team_figure .box41 .mainlist{padding:10px;height:300px;}
+.team_figure .box41 .mainlist h3{border-bottom:1px solid #e3e3e3;height:20px;margin-bottom:20px;text-align:center;}
+.team_figure .box41 .mainlist span{display: inline-block;width: 62px;padding-bottom: 15px;text-align: center;}
+.team_figure .box41 .mainlist input{border: 1px solid #e3e3e3;height: 25px;width: 90px;margin: 0 5px 0 10px;}  
+.team_figure .box41 .mainlist .ensure .abolish{background-color: #d9d9d9;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #000;padding: 0;} 
+.team_figure .box41 .mainlist .ensure a{background-color:#145f00;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #fff;margin-left:10px;} 
+.team_figure .box41 .mainlist .ensure{position:absolute;right:47px;bottom:30px;}
+#img{width:25px;height:25px;display:block; border:1px solid #d3d3d3;margin:10px 0 0 20px;}
+
+.team_text{width:1200px;height:420px;background-color:#f4f2f2;margin:0 auto;position:relative;}
+.team_text .box-bar39{position:absolute;top:7px;right:10px;z-index:9999;}
+.team_text .box-bar39 a{color:#000;background-color:#f5f1f1;width:40px;height:25px;display:inline-block;border-radius:2px;text-align:center;line-height:25px;}
+.team_text .zhe_z39{width:1200px;height:420px;background-color:#000;opacity:0.7;position:absolute;display:none;z-index:999;cursor:move;}
+.team_text .box39{position:fixed;width:600px;left:50%;height:400px;z-index:100;background-color:#fff;border:6px rgba(122,122,122,.6) solid;padding:1px;z-index:999999;}
+.team_text .box39 h2{height:35px;font-size:14px;background-color:#f6f6f6;position:relative;padding-left:10px;line-height:35px;color:#000;}
+.team_text .box39 h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(/llhb/static/img/v2/enterpriseCustom/flase.png)no-repeat;width:16px;height:16px;}
+.team_text .box39 .mainlist{padding:10px;height:300px;}
+.team_text .box39 .mainlist h3{border-bottom:1px solid #e3e3e3;height:20px;margin-bottom:20px;text-align:center;}
+.team_text .box39 .mainlist span{display: inline-block;width: 62px;padding-bottom: 15px;text-align: center;}
+.team_text .box39 .mainlist input{border: 1px solid #e3e3e3;height: 25px;width: 90px;margin: 0 5px 0 10px;}  
+.team_text .box39 .mainlist .ensure .abolish{background-color: #d9d9d9;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #000;padding: 0;} 
+.team_text .box39 .mainlist .ensure a{background-color:#145f00;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #fff;margin-left:10px;} 
+.team_text .box39 .mainlist .ensure{position:absolute;right:47px;bottom:30px;}
+#img{width:25px;height:25px;display:block; border:1px solid #d3d3d3;margin:10px 0 0 20px;}
+.team_text .team_left{width:640px;overflow:hidden;font-size:16px;line-height:35px;padding:60px 0 0 56px;float:left;position:relative;background:url(/llhb/static/img/v2/enterpriseCustom/line.png nj099) no-repeat;}
+.team_text .team_right{width:155px;height:270px;float:left;margin-left:220px;margin-top:60px;}
+.team_text .team_right .team_person{width:155px;height:52px;background-color:red;background:url(/llhb/static/img/v2/enterpriseCustom/person_icon.png) no-repeat;margin-bottom:50px;}
+.team_text .team_right .team_experts{width:155px;height:52px;background-color:red;background:url(/llhb/static/img/v2/enterpriseCustom/experts.png) no-repeat;margin-bottom:50px;}
+.team_text .team_right .team_patent{width:155px;height:52px;background-color:red;background:url(/llhb/static/img/v2/enterpriseCustom/patent.png) no-repeat;}
+.technical{width:1200px;height:476px;margin:0 auto;position:relative;}
+.technical .box-bar40{position:absolute;top:7px;right:10px;z-index:9999;}
+.technical .box-bar40 a{color:#000;background-color:#f5f1f1;width:40px;height:25px;display:inline-block;border-radius:2px;text-align:center;line-height:25px;}
+.technical .zhe_z40{width:1200px;height:420px;background-color:#000;opacity:0.7;position:absolute;display:none;z-index:999;cursor:move;}
+.technical .box40{position:fixed;width:600px;left:50%;height:500px;z-index:100;background-color:#fff;border:6px rgba(122,122,122,.6) solid;padding:1px;z-index:999999;}
+.technical .box40 h2{height:35px;font-size:14px;background-color:#f6f6f6;position:relative;padding-left:10px;line-height:35px;color:#000;}
+.technical .box40 h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(/llhb/static/img/v2/enterpriseCustom/flase.png)no-repeat;width:16px;height:16px;}
+.technical .box40 .mainlist{padding:10px;height:300px;overflow-y: scroll; overflow-x: hidden;}
+.technical .box40 .mainlist h3{border-bottom:1px solid #e3e3e3;height:20px;margin-bottom:20px;text-align:center;}
+.technical .box40 .mainlist span{display: inline-block;width: 62px;padding-bottom: 15px;text-align: center;}
+.technical .box40 .mainlist input{border: 1px solid #e3e3e3;height: 25px;width: 90px;margin: 0 5px 0 10px;}  
+.technical .box40 .mainlist .ensure .abolish{background-color: #d9d9d9;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #000;padding: 0;} 
+.technical .box40 .mainlist .ensure a{background-color:#145f00;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #fff;margin-left:10px;} 
+.technical .box40 .mainlist .ensure{position:absolute;right:47px;bottom:30px;}
+#img{width:25px;height:25px;display:block; border:1px solid #d3d3d3;margin:10px 0 0 20px;}
+.technical h3{text-align:center;height:70px;font-size:24px;line-height:70px;margin-bottom:1px;}
+.technical .engineer{width:1200px;height:405px;padding-top:50px;}
+.technical .engineer li{width:200px;height:240px;background-color:pink;float:left;margin:0 20px;display:table-cell;text-align:center;vertical-align:middle;margin-bottom:30px;}
+.technical .engineer li img{max-width:200px;max-height:240px;}
+.technical .engineer li p{font-size:18px;line-height:50px;}
+#TB_overlayBG{background-color:#000;position:absolute;z-index:9999;left:0;top:0;display:none;width:100%;height:100%;opacity:0.7;filter: alpha(opacity=50);-moz-opacity: 0.5;z-index:9999;} 

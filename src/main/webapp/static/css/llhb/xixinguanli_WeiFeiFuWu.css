@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+/*信息管理-危废服务*/
+
+.row{overflow: hidden;margin-bottom: 20px;}
+.show-info{padding:4px 15px;text-align: center;border:1px solid #ccc;color:#666;}
+.s-show-info{background: #5ec520;color:#fff;border-color:#5ec520;}
+.fuwu_date{position:absolute;top:-25px;left:0;}
+.check_right{cursor: pointer;position: absolute;top:6px;right:20px;width:15px;height:15px;background:url(../../img/llhb/check_2.png) 0 0 no-repeat;}
+.check_right_sel{background: url(../../img/llhb/check_1.png) 0 0 no-repeat}
+
+/*title*/
+.weifei_title{overflow: hidden;border-bottom: 1px solid #ccc;}
+.weifei_title ul{height:50px;padding-left: 20px;}
+.weifei_title ul li{margin-top: 10px;overflow: hidden;float:left;margin-right: 10px;}
+.weifei_title ul .ie8_weifei_title_lilast{margin-right: 0}
+.weifei_title ul li .txt{float:left;height:30px;padding-left: 4px;line-height: 30px;text-align: right;background-color: #e5e5e5;}
+.weifei_title ul li .triangle{float:left;width:0;height:0;border:15px solid transparent;border-left-color: #e5e5e5;}
+.weifei_title .wf_t_sel .txt{background-color: #468c38;color:#fff;}
+.weifei_title .wf_t_sel .triangle{border-left-color: #468c38;}
+/*title end*/
+
+/*steps*/
+.one-step{margin: 30px 0 30px 150px;height:30px;}
+.steps_circle .steps_line{position:absolute;top:18px;left:8px;width:2px;height:43px;background-color: #a8cc2a;}
+.one-step .steps_circle{position:relative;margin-top: 7px;height:18px;width:18px;float:left;background:url(../../img/llhb/step_circle_03.png) 0 0 no-repeat;}
+.one-step .step_text{float:left;margin-left: 30px;position: relative;}
+.one-step .step_text .little_tri{left:-3px;top:12px;position: absolute;width:5px;height:5px;background-color: #fff;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);border-left:1px solid #ccc;border-bottom: 1px solid #ccc; }
+.one-step .step_text .s_t_con{width:265px;padding:5px 10px;width:255px;background: #fff;border:1px solid #ccc;}
+.one-step-hasdone .steps_circle{background: url(../../img/llhb/step_circle_act_03.png) 0 0 no-repeat;}
+.one-step-hasdone .step_text .little_tri{background-color: #63b62f;border-color: #63b62f}
+.one-step-hasdone .step_text .s_t_con{background-color: #63b62f;color:#fff;border-color: #63b62f;}
+.one-step-hasnotdone .steps_circle{position:relative;margin-top: 7px;height:18px;width:18px;float:left;background: none;}
+.one-step-hasnotdone .step_text .little_tri{display: none;}
+/*steps end*/
+
+/*/*tab 切换*/
+.center_change_tab{padding:30px;width:calc(100% - 60px);}
+.center_change_tab .chang_btns{height:31px;position: relative;width:240px;margin:0 auto;}
+.chang_btns span{cursor:pointer;z-index: 1;display:block;top:0;height:30px;line-height: 30px;width:105px;text-align: center;border:1px solid #ccc;background-color: #fff;position: absolute;border-bottom: none;}
+.chang_btns span:first-child{left:0;}
+.chang_btns span:last-child{right:0;}
+.chang_btns .first-span{left:0;}
+.chang_btns .last-span{right:0;}
+.chang_btns .tab_sel{height:28px;border-top:4px solid #63b62f;z-index: 2;border-bottom: none;background-color: #fff; }
+.center_change_tab .c_c_tab_main{border:1px solid #ccc;padding:0 20px;}
+
+.center_change_tab_4{padding:30px 0;width:100%;}
+.center_change_tab_4 .c_c_tab_main{border-bottom: none;}
+.center_change_tab_4 .chang_btns{width:730px;}
+.center_change_tab_4 .chang_btns .span-of3,.center_change_tab_4 .chang_btns .span-of4,.center_change_tab_4 .chang_btns .span-of5,.center_change_tab_4 .chang_btns .span-of6{background-color: #cccccc;}
+.center_change_tab_4 .chang_btns .span-of1{left:0px;}
+.center_change_tab_4 .chang_btns .span-of2{left:110px;}
+.center_change_tab_4 .chang_btns .span-of4{right:286px;}
+.center_change_tab_4 .chang_btns .span-of3{right:396px;}
+.center_change_tab_4 .chang_btns .span-of5{right:176px;}
+.center_change_tab_4 .chang_btns .span-of6{right:66px;}
+.center_change_tab_4 .chang_btns span.tab_sel{background-color: #fff;}
+/*/*tab 切换 end*/
+
+/*环保公司-危废服务-审核资料并报价-审核资料*/
+.fuwubianhao{text-align: center;margin:20px 0;}
+/*环保公司-危废服务-审核资料并报价-审核资料 end*/
+
+/*审核资料表格*/
+.shenheziliao{border-collapse: collapse;width:100%;color:#666;}
+.shenheziliao th,.shenheziliao td{height:32px;border:1px solid #ccc;}
+.shenheziliao th{text-align: center;}
+.shenheziliao th input[type=text]{text-align: center;}
+.shenheziliao th input[type=text],.shenheziliao td input[type=text]{border:none;width:100%;}
+.shenheziliao th input[type=text]:focus,.shenheziliao td input[type=text]:focus{border:none;}
+
+.beizhu{margin:20px 0;}
+/*审核资料表格 end*/
+
+/*按钮*/
+.btns{text-align: center;margin:5px 0;}
+.btn.btn-connot{background-color: #e5e5e5;color:#333;}
+/*按钮 end*/
+
+/*确认管理计划表 dif_div*/
+.dif_div{padding:5px 15px;position: relative;overflow: hidden;}
+.dif_div>span{position:absolute;top:5px;left:15px;z-index: 1;background-color: #fff;;display: block;height:30px;line-height: 30px;padding:0 15px;border:1px solid #ccc;border-bottom: none;color:#5EC520;}
+.dif_div_main{float:left;clear:both;border:1px solid #ccc;width:620px;margin-top: 30px;}
+/*确认管理计划表 dif_div  end*/
+
+
+.tip-row-div{border:1px solid #EE7800;background-color: #FFFDEE;height:30px;width:100%;text-indent:5px;line-height: 30px;margin-bottom: 30px;}
+.gobackto_wffw{color:#5EC520;float:right;position: relative;}
+.gobackto_wffw:before{position: absolute;top:2px;left:-20px;content:"";width:15px;height:18px;background: url(../../img/llhb/gobackto_wffw.png) 0 0 no-repeat}
+/*产废方-用户界面2*/
+.chanfeifang_user{overflow: hidden;padding-top: 40px;}
+.cff_user_l{width:160px;margin-top: 30px;margin-left: 30px;}
+.cff_user_l .row{position: relative;}
+.cff_user_l .row .little_tri{right:0px;top:12px;position: absolute;width:7px;height:7px;background-color: #fff;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);border-left:1px solid #ccc;border-bottom: 1px solid #ccc; }
+
+.cff_user_r{padding:50px 10px;border:1px solid #ccc;width:480px;margin-left: -4px;min-height: 160px;}
+.cff_user_r_1,.cff_user_r_3{display: none;position:relative;}
+.cff_user_r_1 p{text-align: center;}
+
+.cff_user_r_2 p,.cff_user_r_3 p{position: absolute;top:-82px;left:-167px;font-size: 12px;width:657px;}
+.cff_user_r_liebiao{padding-left: 40px; overflow-y: auto; overflow-x:hidden;}
+.cff_user_r_liebiao dt,.cff_user_r_liebiao dd{overflow: hidden;margin-bottom: 10px;}
+.cff_user_r_liebiao dt span{margin-right: 10px;width:120px;display: inline-block;text-align: center;}
+.cff_user_r_liebiao dd a{margin-right: 15px;text-align: left;text-indent:10px;}
+/*产废方-用户界面2 end*/
+
+/*产废方 基本资料 steps*/
+.cff_jibenziliao_steps{width:300px;margin:40px auto 20px;}
+.cff_jibenziliao_steps ul{width:300px;height:21px;position:relative;}
+.cff_jibenziliao_steps ul li{position: absolute;top:0;}
+.cff_jibenziliao_steps ul .c_j_steps_li_1{left:14px;}
+.cff_jibenziliao_steps ul .c_j_steps_li_2{left:105px;}
+.cff_jibenziliao_steps ul .c_j_steps_li_3{right:50px;}
+.ie8 .cff_jibenziliao_steps ul .c_j_steps_li_1{left:9px;}
+.ie8 .cff_jibenziliao_steps ul .c_j_steps_li_2{left:100px;}
+.ie8 .cff_jibenziliao_steps ul .c_j_steps_li_3{right:41px;}
+.per-step{margin-right:70px;float:left;}
+.per-step:first-of-type{margin-left: 30px;}
+.per-step .steps_circle{position:relative;margin-top: 7px;height:18px;width:18px;float:left;background:url(../../img/llhb/step_circle_03.png) 0 0 no-repeat;}
+.per-step .steps_circle .steps_line{position:absolute;left:-71px;top:8px;width:73px;height:2px;background-color: #cacbc8;}
+.per-step-hasdone .steps_circle{background: url(../../img/llhb/step_circle_act_03.png) 0 0 no-repeat;}
+.per-step-hasdone .steps_circle .steps_line{background-color: #a8cc2a;}
+
+.cff_jibenziliao_yitonguo{overflow: hidden;}
+.cff_jibenziliao_yitonguo .btn{width:60px;margin-left: 2px;}
+.cff_jibenziliao_yitonguo .show-info{margin-right:2px;}
+/*产废方 基本资料 steps end*/
+
+/*产废方 通知收运*/
+.cff_tongzhishouyun{overflow: hidden;padding-left:100px;width:400px;margin:30px auto;position: relative;text-align: center;}
+.cff_tongzhishouyun ul{overflow: hidden;margin-bottom: 5px;}
+.cff_tongzhishouyun ul li{float:left;width:92px;text-align: center;margin-right: 5px;}
+.cff_tongzhishouyun .row input{width:90px;margin-right: 5px;float:left;}
+.cff_tongzhishouyun .btn-connot{width:285px;float:left;}
+.cff_tongzhishouyun .tiqian{margin-top: 3px;margin-left: 5px;color:#666;}
+
+/*我要评价*/
+.cff_tongzhishouyun_pinjia{margin-top: 20px;margin-bottom:20px;}
+.check_eva{overflow:hidden;border-top: 1px solid #ccc;padding:30px 0 0; }
+.check_eva ul{margin-right:40px; float:left;position: relative;padding-left: 20px;margin-left: 55px;}
+.check_eva ul li{float:left; line-height:18px;margin-right: 5px;}
+.check_eva ul .check_1{margin-right:10px;padding-left:7px;padding-right:7px; background-image:url(../../img/llhb/check_2.png); background-position:center; background-repeat:no-repeat; margin-top:2px; cursor:pointer;}
+.check_eva ul li:nth-of-type(2){margin-right:6px;}
+.check_right{top:4px;left: 0}
+/*产废方 通知收运 end*/
+
+/*产废方 支付并备案*/
+.cff_zhifubingbeian{width:310px;margin:0 auto;}
+.cff_zhifubingbeian .cff_zfbba_div{width:255px;border:1px solid #ccc;}
+.cff_zhifubingbeian .row{padding-left: 15px;}
+.cff_zfbba_div .btn{width:100%;}
+.cff_zfbba_div p{padding:5px;font-size: 12px;}
+/*产废方 支付并备案 end*/

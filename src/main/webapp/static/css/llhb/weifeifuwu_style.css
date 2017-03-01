@@ -1,0 +1,54 @@
+
+.wrapper .main{overflow: hidden;margin-bottom: 150px;}
+/*危废 关于*/
+.wf-help-div{text-align:center;margin:15px 15px 0 0;width:360px;height:368px;float:left;background: url(../../img/llhb/wf_help_01.png) 0 0 no-repeat;}
+.wf-help-div-center{width:160px;height:160px;margin:90px auto 20px;}
+.wf-help-div p{color:#666;}
+.wf-help-div span{color:#4F9028;font-size: 24px;margin-top: 10px;display: block;}
+/*危废 关于结束*/
+
+.header_nav ul{position: relative;}
+
+/*右侧 快速申请 预约办理框*/
+.wf-right-div{width:245px;height:365px;border:1px solid #ccc;background-color: #fff;position: absolute;right:0;top:60px;z-index: 10;}
+.wf-r-d-div{padding:25px;text-align: center;}
+.wf-r-d-div img{display: block;margin-left: 75px;margin-bottom: 10px;}
+.wf-r-d-div a{margin:0 auto;height:30px;line-height: 30px;width:160px;display: block;background-color: #ee7800;color:#fff;}
+.wf-r-d-div p{margin-top: 10px;color:#666;}
+/*右侧 快速申请 预约办理框 结束*/
+
+/*危废 预约危废办理*/
+.wf-yywfbl-main{padding:20px 30px;width:675px;border:1px solid #ccc;margin-top:15px;}
+.wf-yywfbl-main dt img{display: block;margin:0 auto;}
+.wf-yywfbl-main dd{font-family: "黑体";padding:30px;overflow: hidden;}
+.wf-yywfbl-main dl dd:not(:last-child){border-bottom: 1px dashed #ccc;}
+.wf-yywfbl-main dd h5{font-weight: 400;font-size: 20px;margin-bottom: 30px;}
+.wf-yywfbl-main dd img{float:left;}
+.wf-yywfbl-main dd div{float:left;color:#666;margin-left: 15px;margin-top: 53px;font-size: 16px;}
+.wf-yywfbl-main dd div p{margin-bottom: 10px;}
+/*危废 预约危废办理 结束*/
+
+/*危废 危废办理*/
+.wf-wfbl-main-total{border:1px solid #ccc;padding:20px 30px;width:675px;margin-top:15px;}
+.wf-wfbl-main{margin-top:20px;margin-bottom: 5px;}
+.wf-wfbl-main:not(:last-child){border-bottom: 1px dashed #ccc;}
+.wf-wfbl-m-title{position: relative;height:20px;padding:0 10px 10px 10px;background-color: #EEECEC;}
+.wf-wfbl-m-title span{width:60px;height:30px;position: absolute;left:10px;bottom:10px;}
+.wf-wfbl-m-div{overflow: hidden;}
+.wf-wfbl-m-div img{float:left;margin-top: 10px;margin-bottom: 20px;margin-left: 30px;}
+.wf-wfbl-m-div .wf-wfbl-m-div-r{margin-top: 60px;float:right;color:#666;width: 300px;font-size: 12px;}
+/*危废 危废办理 结束*/
+
+
+/*弹窗*/
+.pl_wffw_shenqing_table{border-collapse:collapse;width:90%;margin:15px auto 15px;}
+.pl_wffw_shenqing_table th,.pl_wffw_shenqing_table td{height:30px;border:1px solid #ccc;color:#666;}
+.pl_wffw_shenqing_table th{text-align:center;width:100px; }
+.pl_wffw_shenqing_table input{border:none;width:100%;}
+.pl_wffw_shenqing_table th input{text-align: center;}
+.pl_wffw_shenqing_table td input{text-indent: 10px;}
+.pl_wffw_shenqing{z-index: 21;}
+.pl_wffw_shenqing h3{font-size: 24px;font-weight: 400;}
+.pl_wffw_shenqing .pl_content p{color:#333;text-align: left;margin-left: 35px;}
+/*弹窗结束*/
+

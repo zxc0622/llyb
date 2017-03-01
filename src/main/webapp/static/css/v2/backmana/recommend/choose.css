@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局控制*/
+body{margin:0; padding:0; font-size:12px; font-family:"微软雅黑";}
+body{overflow:-Scroll;overflow-x:hidden;}
+/*重置浏览器默认样式*/
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none;}
+/*公共样式*/
+a:link,a:visited{color:#666; text-decoration:none;}
+a:hover{text-decoration:none;}
+.prwum{width:765px;height:300px;}
+.prwum h3{font-size:18px;color:#5ec51e;margin-bottom:9px;}
+.prwum .present{margin:6px 0 12px 0;}
+.prwum .serve{width:763px;overflow: hidden;border:1px solid #cdcdcd;}
+.prwum .protection{height:49px;line-height:49px;border-bottom:1px solid #cdcdcd;}
+.prwum .push{width:80px;height:30px;background-color:orange;float:left;text-align: center;line-height: 30px;color: #fff;font-size: 16px;cursor: pointer;margin: 10px 0 0 10px;}
+/* .prwum .advisory_agent{display:none;} */
+.prwum .redact{width:750px;margin:0 auto;}
+.prwum .redact li{height:32px;border-bottom:1px dashed #f1f1f1;line-height:32px;}
+.prwum .redact .pitch{float:left;margin:10px 9px 0 0; *margin-top:6px;}
+.prwum .redact li a{float:left;display:block;font-size:14px;text-align:center;width:115px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.prwum .protection .hbfw{float: left; margin: 0 12px 0 22px; font-size: 14px;}
+.prwum .protection .hbfw_text{width: 200px; height: 26px; height: 28px\9; line-height: 28px; float: left; margin: 10px 8px 0 0;padding-left: 5px;}
+.prwum .protection .create_time{width: 89px;height: 26px;height: 28px\9;line-height: 28px;float: left;margin: 10px 8px 0 0;padding-left: 10px;}
+.prwum .protection .search_need{width: 100px; height: 30px; float: left; background-color: #5ec520; border: 0; color: #fff; font-size: 16px; cursor: pointer; margin: 10px 8px 0 14px; line-height: 30px; *line-height: 30px; font-family:微软雅黑;}

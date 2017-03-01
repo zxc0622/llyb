@@ -1,0 +1,39 @@
+<ehcache name="llhb">
+    <diskStore path="java.io.tmpdir/llhb"/>
+ 
+    <defaultCache
+	    maxElementsInMemory="10000"
+	    eternal="false"
+	    timeToIdleSeconds="120"
+	    timeToLiveSeconds="120"
+	    overflowToDisk="false"
+	    diskPersistent="false"
+	    diskExpiryThreadIntervalSeconds="120"/>
+         
+    <cache name="chatMessage"
+		maxElementsInMemory="10000"
+		overflowToDisk="true"
+		eternal="true"
+		timeToLiveSeconds="0"
+		timeToIdleSeconds="0"
+		diskPersistent="true"
+		diskExpiryThreadIntervalSeconds="600"/>
+		
+		
+	<cache name="checkCode"
+		maxElementsInMemory="10000"
+		overflowToDisk="true"
+		eternal="true"
+		timeToLiveSeconds="0"
+		timeToIdleSeconds="0"
+		diskPersistent="true"
+		diskExpiryThreadIntervalSeconds="600"/>
+		
+	<cache name="prod"
+		maxElementsInMemory="10000"
+		overflowToDisk="true"
+		timeToLiveSeconds="7200"
+		timeToIdleSeconds="7200"
+		diskPersistent="true"
+		diskExpiryThreadIntervalSeconds="600"/>
+</ehcache>

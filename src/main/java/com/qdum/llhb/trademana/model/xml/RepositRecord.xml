@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql>
+    <select ID="queryRepositRecordSelect">
+        <![CDATA[
+       SELECT
+	user_info.login_name,
+	reposit_record_info.alipay_account,
+	reposit_record_info.amount,
+	reposit_record_info.platform,
+	reposit_record_info.status,
+	reposit_record_info.create_by,
+	create_operator_info.login_name createOperator,
+	reposit_record_info.create_date,
+	reposit_record_info.update_by,
+	update_operator_info.login_name updateOperator,
+	reposit_record_info.update_date
+        ]]>
+    </select>
+    <select ID="queryRepositRecordFrom">
+        <![CDATA[
+        FROM
+	(
+		SELECT
+			user_id,
+			alipay_account,
+			amount,
+			platform,
+			status,
+			create_by,
+			create_date,
+			update_by,
+			update_date
+		FROM
+			tm_reposit_record
+		WHERE
+			del_flag = '0'
+	) reposit_record_info
+LEFT JOIN (
+	SELECT
+		id,
+		login_name
+	FROM
+		sys_user
+	WHERE
+		del_flag = '0'
+) user_info ON reposit_record_info.user_id = user_info.id
+LEFT JOIN (
+	SELECT
+		id,
+		login_name
+	FROM
+		sys_user
+	WHERE
+		del_flag = '0'
+) create_operator_info ON create_operator_info.id = reposit_record_info.create_by
+LEFT JOIN (
+	SELECT
+		id,
+		login_name
+	FROM
+		sys_user
+	WHERE
+		del_flag = '0'
+) update_operator_info ON update_operator_info.id = reposit_record_info.update_by
+        ]]>
+    </select>
+</sql>

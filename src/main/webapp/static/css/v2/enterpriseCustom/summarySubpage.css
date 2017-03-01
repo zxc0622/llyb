@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局控制*/
+body{margin:0; padding:0; font-size:12px; font-family:"微软雅黑";}
+body{overflow:-Scroll;overflow-x:hidden;}
+/*重置浏览器默认样式*/
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none; border:0;}
+/*公共样式*/
+a:link,a:visited{color:#666; text-decoration:none;}
+a:hover{text-decoration:underline;}
+.introduce{width:1200px;height:98px;background-color:blue;margin:0 auto;background:url(../../../img/v2/enterpriseCustom/enterprise.png) no-repeat;position:relative;margin-top: 40px;}
+.introduce .introduce_jjie{position:absolute;left:100px;top:20px;}
+.introduce .zhe_z16{width:1200px;height:98px;background-color:#000;opacity:0.7;position:absolute;top:0;cursor:move;z-index:999;display:none;}
+.introduce .box-bar16{position:absolute;top:7px;right:10px;z-index:9999;}
+.introduce .box-bar16 a{color:#000;background-color:#f5f1f1;width:40px;height:25px;display:inline-block;border-radius:2px;text-align:center;line-height:25px;}
+.introduce .box16{position:fixed;width:600px;left:50%;height:280px;z-index:100;background-color:#fff;border:6px rgba(122,122,122,.6) solid;padding:1px;z-index:999999;}
+.introduce .box16 h2{height:35px;font-size:14px;background-color:#f6f6f6;position:relative;padding-left:10px;line-height:35px;color:#000;}
+.introduce .box16 h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(../../../img/v2/enterpriseCustom/flase.png)no-repeat;width:16px;height:16px;}
+.introduce .box16 .mainlist{padding:10px;height:300px;}
+.introduce .box16 .mainlist h3{border-bottom:1px solid #e3e3e3;height:20px;margin-bottom:20px;text-align:center;}
+.introduce .box16 .mainlist span{display: inline-block;width: 62px;padding-bottom: 15px;text-align: center;}
+.introduce .box16 .mainlist input{border: 1px solid #e3e3e3;height: 25px;width: 90px;margin: 0 5px 0 10px;}  
+.introduce .box16 .mainlist .ensure .abolish{background-color: #d9d9d9;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #000;padding: 0;} 
+.introduce .box16 .mainlist .ensure a{background-color:#145f00;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #fff;margin-left:10px;} 
+.introduce .box16 .mainlist .ensure{position:absolute;right:47px;bottom:30px;}
+ #TB_overlayBG{background-color:#000;position:absolute;z-index:9999;left:0;top:0;display:none;width:100%;height:100%;opacity:0.7;filter: alpha(opacity=70);-moz-opacity: 0.7;z-index:99;} 
+/* .ku{width:25px;height:25px;display:block; border:1px solid #d3d3d3;margin:10px 0 0 20px;} */
+
+.recommend{width:1200px;height:620px;margin:0 auto;margin-top:38px;-webkit-box-shadow: #004b44 0px 0px 10px;}
+.recommend .recommend_top{width:1200px;height:254px;position:relative;}
+.recommend .recommend_top .zhe_z17{width:1200px;height:254px;background-color:#000;opacity:0.7;position:absolute;top:0;cursor:move;z-index:999;display:none;}
+.recommend .recommend_top .box-bar17{position:absolute;top:7px;right:10px;z-index:9999;}
+.recommend .recommend_top .box-bar17 a{color:#000;background-color:#f5f1f1;width:40px;height:25px;display:inline-block;border-radius:2px;text-align:center;line-height:25px;}
+.recommend .recommend_top .box17{position:fixed;width:600px;left:50%;height:328px;z-index:100;background-color:#fff;border:6px rgba(122,122,122,.6) solid;padding:1px;z-index:999999;}
+.recommend .recommend_top .box17 h2{height:35px;font-size:14px;background-color:#f6f6f6;position:relative;padding-left:10px;line-height:35px;color:#000;}
+.recommend .recommend_top .box17 h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(../../../img/v2/enterpriseCustom//flase.png)no-repeat;width:16px;height:16px;}
+.recommend .recommend_top .box17 .mainlist{padding:10px;height:300px;}
+.recommend .recommend_top .box17 .mainlist h3{border-bottom:1px solid #e3e3e3;height:20px;margin-bottom:20px;text-align:center;}
+.recommend .recommend_top .box17 .mainlist span{display: inline-block;width: 62px;padding-bottom: 15px;text-align: center;}
+.recommend .recommend_top .box17 .mainlist input{border: 1px solid #e3e3e3;height: 25px;width: 90px;margin: 0 5px 0 10px;}  
+.recommend .recommend_top .box17 .mainlist .ensure .abolish{background-color: #d9d9d9;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #000;padding: 0;} 
+.recommend .recommend_top .box17 .mainlist .ensure a{background-color:#145f00;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #fff;margin-left:10px;} 
+.recommend .recommend_top .box17 .mainlist .ensure{position:absolute;right:47px;bottom:30px;}
+ #TB_overlayBG{background-color:#000;position:absolute;z-index:9999;left:0;top:0;display:none;width:100%;height:100%;opacity:0.7;filter: alpha(opacity=70);-moz-opacity: 0.7;z-index:99;} 
+.recommend .recommend_top h3{font-size:28px;text-align:center;padding-top:50px;color:#fff;position: absolute;top: -12px;left: 0;width: 1200px;}
+.recommend .recommend_message{width:900px;margin:0 auto;padding-top:20px;position: absolute;top:88px;left:150px;}
+.recommend .recommend_top .recommend_message p{float:left;font-size:18px;width:300px;color:#fff;}
+.recommend .recommend_top .recommend_message span{text-align:center;display:block;background:url(../../../img/v2/enterpriseCustom//approve.png) center 60px no-repeat;height:80px;padding-top:35px;color:#fff;}
+.recommend_top_img{width:1200px;height:254px;-webkit-filter: blur(3px);-moz-filter: blur(3px);-o-filter: blur(3px);-ms-filter: blur(3px);filter: blur(3px);}
+.recommend_bottom{width:1200px;height:366px;}
+.recommend_bottom h2{text-align:center;line-height:90px;font-size:20px;}
+.recommend_bottom .recommend_referral{width:1100px;margin:0 auto;height:180px;font-size:18px;color:#4c4c4c;line-height:30px;}
+.enroll{width:1200px;height:420px;margin:0 auto;margin-top:17px;-webkit-box-shadow: #004b44 0px 0px 10px;position:relative;}
+.enroll .zhe_z18{width:1200px;height:420px;background-color:#000;opacity:0.7;position:absolute;top:0;cursor:move;z-index:999;display:none;}
+.enroll .box-bar18{position:absolute;top:7px;right:10px;z-index:9999;}
+.enroll .box-bar18 a{color:#000;background-color:#f5f1f1;width:40px;height:25px;display:inline-block;border-radius:2px;text-align:center;line-height:25px;}
+.enroll .box18{position:fixed;width:660px;left:50%;height:478px;z-index:100;background-color:#fff;border:6px rgba(122,122,122,.6) solid;padding:1px;z-index:999999;}
+.enroll .box18 h2{height:35px;font-size:14px;background-color:#f6f6f6;position:relative;padding-left:10px;line-height:35px;color:#000;}
+.enroll .box18 h2 a{position:absolute;right:10px;top:10px;font-size:12px;color:#000;background:url(../../../img/v2/enterpriseCustom//flase.png)no-repeat;width:16px;height:16px;}
+.enroll .box18 .mainlist{padding:10px;height:416px;}
+.enroll .box18 .mainlist h3{border-bottom:1px solid #e3e3e3;height:20px;margin-bottom:20px;text-align:center;}
+.enroll .box18 .mainlist span{display: inline-block;width: 62px;padding-bottom: 15px;text-align: center;}
+.enroll .box18 .mainlist input{border: 1px solid #e3e3e3;height: 25px;width: 90px;margin: 0 5px 0 10px;}  
+.enroll .box18 .mainlist .ensure .abolish{background-color: #d9d9d9;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #000;padding: 0;} 
+.enroll .box18 .mainlist .ensure a{background-color:#145f00;text-align: center;height: 28px;display: inline-block;line-height: 28px;border-radius: 4px;color: #fff;margin-left:10px;} 
+.enroll .box18 .mainlist .ensure{position:absolute;right:47px;bottom:30px;}
+ #TB_overlayBG{background-color:#000;position:absolute;z-index:9999;left:0;top:0;display:none;width:100%;height:100%;opacity:0.7;filter: alpha(opacity=70);-moz-opacity: 0.7;z-index:99;} 
+.enroll .enroll_left{width:480px;height:420px;background-color:gray;float:left;}
+.enroll .enroll_right{width:720px;height:420px;float:left;}
+.enroll .zhu_ce{width:600px;height:325px;margin:0 auto;margin-top:55px;}
+.enroll .zhu_ce p{margin-bottom:17px;}
+.enroll .zhu_ce b{width:90px;font-size:18px;display:inline-block;}
+.enroll .zhu_ce span{font-size:16px;color:#7d7d7d;}
+.enroll .zhu_ce .business{width:480px;display:block;float:left;margin-bottom:20px;word-break: break-all;}
+.enroll .zhu_ce .license{width:58px;height:80px;float:left;cursor:pointer;}

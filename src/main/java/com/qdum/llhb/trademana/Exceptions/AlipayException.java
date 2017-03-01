@@ -1,0 +1,101 @@
+package com.qdum.llhb.trademana.Exceptions;
+
+/**
+ * Created by chao on 2016/1/19.
+ */
+public class AlipayException extends Exception {
+
+    private final String SELLER_NOT_IN_SPECIFIED_SELLERS = "SELLER_NOT_IN_SPECIFIED_SELLERS";
+
+    private final String TRADE_SELLER_NOT_MATCH = "TRADE_SELLER_NOT_MATCH";
+
+    private final String TRADE_BUYER_NOT_MATCH = "TRADE_BUYER_NOT_MATCH ";
+
+    private final String ILLEGAL_FEE_PARAM = "ILLEGAL_FEE_PARAM";
+
+    private final String SUBJECT_MUST_NOT_BE_NULL = "SUBJECT_MUST_NOT_BE_NULL";
+
+    private final String TRADE_PRICE_NOT_MATCH = "TRADE_PRICE_NOT_MATCH";
+
+    private final String TRADE_QUANTITY_NOT_MATCH = "TRADE_QUANTITY_NOT_MATCH";
+
+    private final String TRADE_TOTALFEE_NOT_MATCH = "TRADE_TOTALFEE_NOT_MATCH";
+
+    private final String TRADE_NOT_ALLOWED_PAY = "TRADE_NOT_ALLOWED_PAY";
+
+    private final String DIRECT_PAY_WITHOUT_CERT_CLOSE = "DIRECT_PAY_WITHOUT_CERT_CLOSE";
+
+    private final String FAIL_CREATE_CASHIER_PAY_ORDER = "FAIL_CREATE_CASHIER_PAY_ORDER";
+
+    private final String ILLEGAL_PAYMENT_TYPE = "ILLEGAL_PAYMENT_TYPE";
+
+    private final String NOT_SUPPORT_GATEWAY = "NOT_SUPPORT_GATEWAY";
+
+    private final String BUYER_SELLER_EQUAL = "BUYER_SELLER_EQUAL";
+
+    private final String SELLER_NOT_EXIST = "SELLER_NOT_EXIST";
+
+    private final String ILLEGAL_ARGUMENT = "ILLEGAL_ARGUMENT";
+
+    private final String TRADE_NOT_FOUND = "TRADE_NOT_FOUND";
+
+    private final String TRADE_GOOD_INFO_NOT_FOUND = "TRADE_GOOD_INFO_NOT_FOUND";
+
+    private final String BUYER_EMAIL_ID_MUST_NULL = "BUYER_EMAIL_ID_MUST_NULL";
+
+    private final String PRODUCT_NOT_ALLOWED = "PRODUCT_NOT_ALLOWED";
+
+    private final String ROYALTY_RECEIVER_NOT_IN_SPECIFIED_ACCOUNTS = "ROYALTY_RECEIVER_NOT_IN_SPECIFIED_ACCOUNTS";
+
+    private final String ROYALTY_LENGTH_ERROR = "ROYALTY_LENGTH_ERROR";
+
+    private final String DEFAULT_BANK_INVALID = "DEFAULT_BANK_INVALID";
+
+    private final String DIS_NOT_SIGN_PROTOCOL = "DIS_NOT_SIGN_PROTOCOL";
+
+    private final String SELF_TIMEOUT_NOT_SUPPORT = "SELF_TIMEOUT_NOT_SUPPORT";
+
+    private final String DIRECTIONAL_PAY_FORBIDDEN = "DIRECTIONAL_PAY_FORBIDDEN";
+
+    private final String SELLER_ENABLE_STATUS_FORBID = "SELLER_ENABLE_STATUS_FORBID";
+
+    private final String ROYALTY_SELLER_ENABLE_STATUS_FORBID = "ROYALTY_SELLER_ENABLE_STATUS_FORBID";
+
+    private final String ROYALTY_SELLER_NOT_CERTIFY = "ROYALTY_SELLER_NOT_CERTIFY";
+
+    private final String ROYALTY_FORAMT_ERROR = "ROYALTY_FORAMT_ERROR";
+
+    private final String ROYALTY_TYPE_ERROR = "ROYALTY_TYPE_ERROR";
+
+    private final String ROYALTY_RECEIVE_EMAIL_NOT_EXIST = "ROYALTY_RECEIVE_EMAIL_NOT_EXIST";
+
+    private final String ROYALTY_RECEIVE_EMAIL_NOT_CERTIFY = "ROYALTY_RECEIVE_EMAIL_NOT_CERTIFY";
+
+    private final String ROYALTY_PAY_EMAIL_NOT_EXIST = "ROYALTY_PAY_EMAIL_NOT_EXIST";
+
+    private final String TAOBAO_ANTI_PHISHING_CHECK_FAIL = "TAOBAO_ANTI_PHISHING_CHECK_FAIL";
+
+    private final String SUBJECT_HAS_FORBIDDENWORD = "SUBJECT_HAS_FORBIDDENWORD";
+
+    private final String PAY_CHECK_FAIL = "PAY_CHECK_FAIL";
+
+    private final String BODY_HAS_FORBIDDENWORD = "BODY_HAS_FORBIDDENWORD";
+
+    private final String NEED_CTU_CHECK_PARAMETER_ERROR = "NEED_CTU_CHECK_PARAMETER_ERROR";
+
+    private final String NEED_CTU_CHECK_NOT_ALLOWED = "NEED_CTU_CHECK_NOT_ALLOWED";
+
+    private final String BUYER_NOT_EXIST = "BUYER_NOT_EXIST";
+
+    private final String HAS_NO_PRIVILEGE = "HAS_NO_PRIVILEGE";
+
+    private final String EVOUCHER_ID_NOT_EXIST = "EVOUCHER_ID_NOT_EXIST";
+
+    private final String NAVIGATION_INCOME_OF_ROYALTY_ACCOUNT = "NAVIGATION_INCOME_OF_ROYALTY_ACCOUNT";
+
+
+    public AlipayException(String message) {
+        super(message);
+    }
+
+}

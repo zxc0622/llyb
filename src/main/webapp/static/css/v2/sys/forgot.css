@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+
+body {
+	overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, p, img, input, button,
+	textarea {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.register_screen {
+	width: 100%;
+	height: 897px;
+	overflow: hidden;
+	background: url(/llhb/static/img/v2/register/registration.jpg) no-repeat;
+}
+
+.register_screen .login_logo {
+	width: 687px;
+	height: 553px;
+	background: url(/llhb/static/img/v2/register/logo_bg.png) center
+		no-repeat;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.register_screen .login_logo .content {
+	width: 270px;
+	height: 120px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.register_screen .login_logo .content h2 {
+	width: 164px;
+	height: 80px;
+	background-color: red;
+	color: #ee7800;
+	font-size: 32px;
+	font-family: "[MicrosoftYaHeiLight";
+	background: url(/llhb/static/img/v2/register/plaint.png) right 3px
+		no-repeat;
+	margin: 0 auto;
+}
+
+.register_screen .login_logo .content .shop_tabb .current {
+	text-align: center;
+	line-height: 36px;
+	width: 270px;
+	height: 36px;
+	background-color: #56b11c;
+	font-size: 16px;
+	color: #fff;
+}
+
+.register_screen .login_logo .content .shop_tabb li {
+	text-align: center;
+	line-height: 36px;
+	color: #56b11c;
+}
+
+.register_screen .login_logo .content .shop_tabb .home_page {
+	font-size: 14px;
+}
+
+.register_screen .login_logo .content .present {
+	margin: 36px 0 12px 0;
+}
+
+.step-body {
+	position: relative;
+}
+
+.step-header {
+	width: 100%;
+	margin: 0 auto;
+	display: none;
+}
+
+.step-header ul {
+	padding: 0;
+}
+
+.step-header li {
+	list-style-type: none;
+	text-align: center;
+	float: left;
+	position: relative;
+}
+
+.step-header li p {
+	margin-top: 18px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: #999999;
+}
+
+.step-header li span {
+	position: relative;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Arial;
+	color: #ffffff;
+	height: 40px;
+	line-height: 40px;
+	background: url(/llhb/static/img/v2/register/cell.png) center top
+		no-repeat;
+	display: block;
+}
+
+.step-header li.step-active span {
+	background: url(/llhb/static/img/v2/register/cell-active.png) center top
+		no-repeat;
+}
+
+.step-header li.step-active p {
+	color: #ee7800;
+}
+
+.step-bar, .step-bar-active {
+	/* height: 13px;
+	border-radius: 12px; */
+	
+}
+
+.step-bar {
+	width: 100%;
+	background: url(/llhb/static/img/v2/register/bar-bg.png);
+	position: relative;
+	border-radius: 12px;
+	/* z-index: -1; */
+	top: 22px;
+}
+
+.step-bar-active {
+	border-bottom: 1px solid #ee7800;
+	/* width: 0px;
+	background: url(/llhb/static/img/v2/register/bar-bg-active.png) ;
+	 */
+}
+
+.step-list {
+	display: none;
+	clear: both;
+	padding-top: 70px;
+}
+
+#phoneMail{width: 270px; height: 43px; line-height: 43px; color: #63b62f; border: 0; border-bottom: 1px solid #63b62f;}
+#checkCode{width: 270px; height: 43px; line-height: 43px; color: #63b62f; border: 0; border-bottom: 1px solid #63b62f;}
+.getCheckCode{width: 92px; height: 30px; background-color: #eef7e8; border: 0; color: #56b11c; position: absolute; right: 0; top: 6px;}
+
+
+
+
+
+

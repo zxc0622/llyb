@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局控制*/
+body{margin:0; padding:0; font-size:12px; font-family:"微软雅黑";}
+body{overflow:-Scroll;overflow-x:hidden;}
+/*重置浏览器默认样式*/
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none; border:0;}
+/*公共样式*/
+.row .btn{color:#fff;}
+a:link,a:visited{color:#666; text-decoration:none;}
+a:hover{text-decoration:underline;}
+#TB_overlayBG {background-color: #000;position: absolute;z-index: 9999;left: 0;top: 0;display: none;width: 100%;height: 100%;opacity: 0.7;filter: alpha(opacity=70);-moz-opacity: 0.7;z-index: 99;}
+.afterSale{width:1200px;margin:0 auto;background-color:#fff;padding-top:110px;margin-top: 30px;}
+.letter{width:980px;margin:0 auto;position: relative;min-height:600px;}
+.letter h2{text-align:center;font-size:34px;}
+.commitment{margin-top:28px;}
+#spContent{padding-top: 30px;padding-bottom: 30px;}
+
+.zhe_z14 {width: 980px;height: 360px;background-color: #000;opacity: 0.7;position: absolute;display: none;z-index: 999;}
+.box-bar14 {position: absolute;top: 7px;right: 10px;z-index: 9999;}
+.box14 {position: fixed;width: 840px;left: 50%;height: 600px;z-index: 100;background-color: #fff;border: 6px rgba(122,122,122,.6) solid;padding: 1px;z-index: 999999;}
+.box-bar14 a {color: #000;background-color: #f5f1f1;width: 40px;height: 25px;display: inline-block;border-radius: 2px;text-align: center;line-height: 25px;}
+.box14 h2 {height: 35px;font-size: 14px;background-color: #f6f6f6;position: relative;padding-left: 10px;line-height: 35px;color: #000;}
+.box14 h2 a {position: absolute;right: 10px;top: 10px;font-size: 12px;color: #000;background: url(../../../img/v2/enterpriseCustom/flase.png)no-repeat;width: 16px;height: 16px;cursor:pointer;}
+.afterSale p {line-height: 30px;padding-top: 10px;width: 1000px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.box14 .mainlist {padding: 10px;height: 600px;overflow: auto;}
+.box14_preview p {line-height: 30px;padding-top: 10px;width: 1000px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.tab_main input[type=text], .tab_main input[type=password] {
+    border: 1px solid #ccc;
+    height: 32px;
+    text-indent: 5px;
+}
+
+.normal_btn {
+    margin-right: 5px;
+    width: 120px;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    color: #666666;
+    display: inline-block;
+    border: 1px solid #cccccc;
+}
+
+.btn {
+    width: 120px;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #5cb531;
+    display: inline-block;
+    margin-right: 5px;
+    padding-top: 1px;
+}
+
+.row {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.row>* {
+	float: left;
+	margin-right: 10px;
+}
+
+.for_zhanhui {
+	display: none
+}
+
+.row>span:first-child {
+	width: 80px;
+	text-align: right;
+	height: 30px;
+	line-height: 30px;
+}
+
+.for_tip {
+	height: 30px;
+	line-height: 32px;
+	color: #666;
+	font-size: 12px;
+}
+
+textarea {
+	margin-left: 25px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+input[type=text] {
+	width: 400px;
+}
+
+.for_img {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #ccc;
+	position: relative;
+	line-height: 150px;
+	text-align: center;
+	color: #666;
+}
+
+.for_img img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ml_90 {
+	margin-left: 90px;
+}
+
+.tab_main {
+	min-height: 500px;
+	padding-bottom: 10px;
+}
+
+.preview_shade {
+	display: none;
+	position: fixed;
+	z-index: 9999999;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(204, 204, 204, 0.81);
+}
+
+.box14_preview {
+	display: none;
+	width: 1200px;
+	height: 360px;
+	position: fixed;
+	z-index: 99999999;
+	left: 100px;
+	top: 200px;
+	overflow: auto;
+	background-color: #FFF;
+}
+
+.box14_preview h2 {
+	height: 35px;
+	font-size: 14px;
+	background-color: #f6f6f6;
+	position: relative;
+	padding-left: 10px;
+	line-height: 35px;
+	color: #000;
+}
+
+.box14_preview h2 a {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 12px;
+	color: #000;
+	background: url(${ctxStatic}/img/v2/enterpriseCustom/flase.png)
+		no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.box14_preview h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.prePreview {
+	padding: 48px 0 0 48px;
+}

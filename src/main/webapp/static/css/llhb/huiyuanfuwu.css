@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+.tab_main .tab_main_row .row_right input[type="text"]:focus {border: 1px solid #ee7800;}
+.tab_main .tab_main_row .row_right textarea:focus {border: 1px solid #ee7800;}
+.tab_main .tab_main_row .main_row_head input[type="text"]:focus {border: 1px solid #ee7800;}

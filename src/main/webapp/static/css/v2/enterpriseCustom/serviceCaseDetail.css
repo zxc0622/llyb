@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,address,big,cite,code,del,em,font,img,ins,small,strong,var,b,u, i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend{margin:0;padding:0;}
+body{ background:#FFFFFF; color:#333333; font-family:"微软雅黑",Arial,Lucida,Verdana,Helvetica,sans-serif; font-size:12px; line-height:150%; }
+a:link, a:visited{ color:#333333; text-decoration:none; }
+a:hover{ color:#CC0000; text-decoration:underline; }
+a:active{ color:#990000; }
+ol, ul{ list-style: none outside none;}
+.Joedar_details{width:1200px;height:500px;margin:0 auto;margin-top:40px;}
+.Joedar_from{width:470px;height:450px;float:left;margin-left:40px;position:relative;}
+.Joedar_from h2{font-size:22px;line-height:24px;font-weight:normal;}
+.Joedar_from .standard{width:470px;height:100px;background:url(../../../img/v2/enterpriseCustom/standard.png) no-repeat;margin:20px 0;}
+.Joedar_from .Joedar_anli a{width:228px;height:48px;background-color:#ff735c;display:inline-block;text-align:center;line-height:48px;color:#fff;font-size:16px;cursor: pointer;}
+.Joedar_from .Joedar_anli .understand{position:absolute;bottom:0;}
+.Joedar_company{width:274px;height:284px;float:right;border:1px solid gray;}
+.Joedar_company h3{width:274px;height:40px;background-color:green;text-align:center;line-height:40px;color:#fff;font-size:16px;}
+.Company_name{width:1200px;height:80px;background:url(../../../img/v2/enterpriseCustom/Company_name.png) no-repeat;margin:0 auto;clear:both;font-size:32px;color:#fff;font-weight:bold;text-align:center;line-height:75px;}
+.description{width:1198px;height:400px;border:1px solid gray;margin:0 auto;margin-top:18px;margin-bottom:12px;}
+.description h3{height:39px;border-bottom:1px solid #ebffe4;line-height:39px;padding-left:20px;}
+.description ul{padding:24px 0 0 20px;}
+.description li{width:380px;float:left;font-size:16px;margin-bottom:20px;height:40px;}
+.details_bg{width:1200px;margin:0 auto;}
+/*图片放大镜样式*/
+.jqzoom{border:none;position:relative;padding:0px;cursor:pointer;margin:0px;display:block;display:table-cell;text-align:center; vertical-align:middle;float:left;width: 350px;height:380px;}
+.jqzoom img{max-width:348px;max-height:378px;vertical-align:middle;}
+.zoomdiv{z-index:100;position:absolute;top:0px;left:0px;width:350px;height:350px;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+.jqZoomPup{z-index:10;visibility:hidden;position:absolute;top:0px;left:0px;width:20px;height:20px;border:1px solid #aaa;background:#ffffff /*url(../images/zoom.png) 50% center no-repeat*/;opacity: 0.5;-moz-opacity: 0.5;-khtml-opacity: 0.5;filter: alpha(Opacity=50);}
+.details_bg div{width:1200px;text-align: center;vertical-align: middle;}
+
+
+/*图片小图预览列表*/
+.spec-preview{width:350px;height:380px;border:1px solid #DFDFDF;float:left;margin-bottom:5px;}
+.spec-scroll{clear:both;width:352px;padding-top:18px;}
+.spec-scroll .prev{float:left;margin-right:4px;}
+.spec-scroll .next{float:right;}
+.spec-scroll .prev,.spec-scroll .next{display:block;font-family:"宋体";text-align:center;width:10px;height:54px; line-height:54px;border:1px solid #CCC;background:#EBEBEB;cursor:pointer;text-decoration:none;}
+.spec-scroll .items{float:left;position:relative;width:322px;height:56px;overflow:hidden;}
+.spec-scroll .items ul{position:absolute;width:999999px;height:56px;}
+.spec-scroll .items ul li{float:left;width:64px;text-align:center;}
+.spec-scroll .items ul li img{border:1px solid #CCC;padding:2px;width:50px;height:50px;}
+.spec-scroll .items ul li img:hover{border:2px solid #FF6600;padding:1px;}

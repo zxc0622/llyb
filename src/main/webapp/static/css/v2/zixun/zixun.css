@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family:"微软雅黑";
+}
+body{overflow-x:hidden;}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none;}
+a{color:#000;}
+.message{width:1200px;margin:0 auto;overflow:hidden;margin-top:30px;margin-bottom:50px;}
+#message_left{width:740px;float:left;overflow:hidden;}
+.lunbo1{
+
+      height: 300px;
+      width: 100%;
+      position: relative;overflow: hidden;
+    }
+    .lunbo1 .imagelist{
+      list-style: none;
+      width: 500%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+    }
+    .lunbo1 .imagelist li{
+      float: left;
+      width: 20%;
+      height: 100%;
+    }
+    /*.lunbo1 .imagelist li.no0{
+      background:rgb(7, 5, 18) url(../../../img/v2/zixun/0.jpg) no-repeat center center;
+    }
+    .lunbo1 .imagelist li.no1{
+      background:rgb(0, 0, 0) url(../../../img/v2/zixun/0.jpg) no-repeat center center;
+    }
+    .lunbo1 .imagelist li.no2{
+      background:rgb(67, 163, 249) url(../../../img/v2/zixun/0.jpg) no-repeat center center;
+    }*/
+    .lunbo1 .imagelist li.no3{
+      background:rgb(3, 3, 5) url(../../../img/v2/zixun/4.jpg) no-repeat center center;
+    }
+    .lunbo1 .buttons{
+      width: 595px;
+      background-color: blue;
+      margin: 0 auto;
+      position: relative;
+    }
+    .lunbo1 .buttons .leftBut{
+      width: 22px;
+      height: 35px;
+      position: absolute;
+      left: -60px;
+      top: 132px;
+      background:url(../../../img/v2/zixun/left.png) no-repeat;
+      cursor: pointer;
+    }
+    .lunbo1 .buttons .rightBut{
+      width:22px;
+      height:35px;
+      position: absolute;
+      right: -60px;
+      top: 132px;
+     background:url(../../../img/v2/zixun/right.png) no-repeat;
+      cursor: pointer;
+    }
+
+    .chuantong1 .imgnav{
+      list-style: none;
+      position: absolute;
+      bottom: 10px;
+      left:44%;
+      width: 106px;
+      height: 20px;
+    }
+    .chuantong1 .imgnav li{
+      float: left;
+      width:10px;
+      height:10px;
+      margin-right: 25px;
+      background:url(../../../img/v2/zixun/banner_circle.png) no-repeat;
+      overflow: hidden;
+      cursor: pointer;
+      color:#fff;
+      text-align:center;
+      font-size:14px;
+      line-height:34px;
+
+    }
+    .chuantong1 .imgnav li.cur{
+      width:10px;height:10px;
+ background:url(../../../img/v2/zixun/banner_circle_cur.png) no-repeat;
+    
+}
+/*优蚁资讯start*/
+#message_left .Platts{width:740px;margin-top:20px;position:relative;overflow:hidden;}
+#message_left .Platts h3{height:32px;border-bottom:1px solid #69b83a;color:#69b83a;}
+#message_left .Platts h3 span{border-left:6px solid #3ed2b0;display:block;font-size:16px;padding-left:8px;}
+#message_left .Platts .more{position:absolute;right:0;top:6px;color:#ee7800;}
+#message_left .Platts .demonstration_left{width:300px;position:relative;margin:20px 0 15px 0;float:left;}
+#message_left .Platts .demonstration{width:300px;height:150px;position:relative;margin-bottom:20px;}
+#message_left .Platts .demonstration p{
+	width:300px;
+	height:150px;
+	text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+#message_left .Platts .demonstration img{
+    width: 100%;
+    height: 100%;
+}
+#message_left .Platts .demonstration span{
+	width:300px;
+	height:40px;color:#fff;
+	display:block;position:absolute;
+	bottom:0;background:rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF000000,endColorstr=#FF000000);filter:Alpha(Opacity=50);
+	background-color:#000\9; }
+#message_left .Platts .demonstration span b{
+	font-weight: normal;
+	width:270px;
+	font-size:14px;
+	margin:0 auto;
+	text-align:center;
+	display:block;
+	line-height:40px;
+	 overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#message_left .Platts .emissions{
+	width:300px;
+	height:150px;
+	position:relative;
+	margin-bottom:20px;
+}
+#message_left .Platts .emissions p{
+	width:300px;
+	height:150px;
+	text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+#message_left .Platts .emissions img{
+	height:100%;
+	width:100%;
+}
+#message_left .Platts .emissions span{width:300px;
+	height:40px;
+	color:#fff;
+	display:block;
+	position:absolute;
+	bottom:0;
+	background:rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF000000,endColorstr=#FF000000);filter:Alpha(Opacity=50);
+	background-color:#000\9;
+ }
+#message_left .Platts .emissions span b{
+	font-weight: normal;
+	width:270px;
+	font-size:14px;
+	margin:0 auto;
+	text-align:center;
+	display:block;
+	line-height:40px;
+	 overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#message_left .Platts .full_text{width:408px;height:300px;float:right;margin-top:20px;}
+#message_left .Platts .full_text .manage{width:408px;height:112px;border-bottom:1px solid #f0f0f0;position:relative;}
+#message_left .Platts .full_text .manage h4{
+	width:360px;
+	font-size:16px;
+	 overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#message_left .Platts .full_text .manage span{color:#7d7d7d;font-size:14px;line-height:24px;}
+#message_left .Platts .full_text .problem{width:408px;height:285px;margin-top:12px;position:relative;}
+#message_left .Platts .full_text .problem li{line-height:29px;font-size:14px;}
+#message_left .Platts .full_text .problem li a{
+	width:340px;
+	display:block;
+	font-size:14px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+#message_left .Platts .full_text .problem li span{position:absolute;right:0;}
+#message_left .Platts .advertis{
+	width:740px;
+	height:140px;
+	clear:both;
+}
+#message_left .Platts .advertis p{
+	width:740px;
+	height:140px;
+	clear:both;
+	 text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+#message_left .Platts .advertis img{max-width:740px;max-height:140px;}
+/*优蚁资讯end*/
+.message_right{width:402px;height:600px;float:right;}
+.message_right .shop_tab{width:399px;height:400px;border:1px solid #e5e5e5;}
+.message_right .shop_tab .hd span{border-right:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;float:left;width:99px;height:46px;
+	text-align: center; line-height: 47px;font-size: 14px;background-color: #f0f0f0;
+	margin-bottom:24px;
+	+margin-bottom:10px;
+	-margin-bottom:10px;
+}  
+.message_right .shop_tab .hd span.current{background-color:#fff;border-bottom:none;}
+.message_right .shop_tab .hd li{width:100px;height:30px;background-color:#e9f7e0;}
+.message_right .shop_tab .bds li{line-height:32px;width:358px;
+  margin: 0 auto;height:31px;
+   _height:30px;
+ _line-height:28px;
++height:30px;
+
+  
+}
+.message_right .shop_tab .bds .today_one{background:url(../../../img/v2/zixun/today_one.png) 0 8px no-repeat;margin-right:14px;}
+.message_right .shop_tab .bds .today_two{background:url(../../../img/v2/zixun/today_two.png) 0 8px no-repeat;margin-right:14px;}
+.message_right .shop_tab .bds .today_three{background:url(../../../img/v2/zixun/today_three.png) 0 8px no-repeat;margin-right:14px;}
+.message_right .shop_tab .bds .today_four{background:url(../../../img/v2/zixun/today_four.png) 0 8px no-repeat;margin-right:14px;}
+.message_right .shop_tab .bds .today_five{background:url(../../../img/v2/zixun/today_five.png) 0 8px no-repeat;margin-right:14px;}
+.message_right .shop_tab .bds .today_six{background:url(../../../img/v2/zixun/today_six.png) 0 8px no-repeat;margin-right:14px;}
+.message_right .shop_tab .bds .today_seven{background:url(../../../img/v2/zixun/today_seven.png) 0 8px no-repeat;margin-right:14px;}
+.message_right .shop_tab .bds .today_eight{background:url(../../../img/v2/zixun/today_eight.png) 0 8px no-repeat;margin-right:14px;}
+.message_right .shop_tab .bds .today_nine{background:url(../../../img/v2/zixun/today_nine.png) 0 8px no-repeat;margin-right:14px;}
+.message_right .shop_tab .bds .today_ten{background:url(../../../img/v2/zixun/today_ten.png) 0 8px no-repeat;margin-right:14px;}
+.message_right .shop_tab .bds li a{
+	 height: 30px;
+	font-size:14px;
+	display:block;
+	width:324px;
+	  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float:left;
+}
+.message_right .shop_tab .bds li span{display:block;width:20px;height:30px;float:left;}
+.message_right .shop_tab .bds{clear: both;} 
+.message_right .shop_tab .bds ul{list-style: none;display: none;/* margin-top:30px;  */}
+.message_right .shop_tab .bds ul.cur{display: block;}
+.message_right .knowledge{width:402px;height:360px;margin-top: 36px;position:relative;}
+.message_right .knowledge h3{
+	+margin-bottom:22px;
+	height:32px;
+	border-bottom:1px solid #69b83a;
+	color:#69b83a;
+}
+.message_right .knowledge h3 span{border-left:6px solid #3ed2b0;display:block;font-size:16px;padding-left:8px;}
+.message_right .knowledge .more{position:absolute;right:0;top:6px;color:#ee7800;}
+.message_right .knowledge .science{width:402px;height:190px;margin-top:22px;}
+.message_right .knowledge .science li{
+	line-height:28px;
+	font-size:14px;
+	width:380px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.message_right .knowledge .science li a{
+  line-height:28px;
+	font-size:14px;
+	width:380px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.message_right .knowledge .exhibition{width:402px;overflow: hidden;position:relative;}
+.message_right .knowledge .exhibition h3{height:32px;border-bottom:1px solid #69b83a;color:#69b83a;margin-bottom:22px;}
+.message_right .knowledge .exhibition h3 span{border-left:6px solid #3ed2b0;display:block;font-size:16px;padding-left:8px;}
+.message_right .knowledge .exhibition .conduct{height:114px;width:402px;position:relative;}
+.message_right .knowledge .exhibition .the_left{width:128px;height:100px;text-align: center;
+	vertical-align: middle; 
+	display: table-cell;
+}
+.message_right .knowledge .exhibition .Sixth{float:right;}
+.message_right .knowledge .exhibition .Sixth h4{
+	width: 220px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size:16px;
+}
+.message_right .knowledge .exhibition .Sixth p{font-size:14px;width:242px;line-height:22px;text-align: left;}
+.message_right .knowledge .exhibition .Sixth span{
+  width:132px;
+  display:block;
+  float:left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*人才招聘start*/
+.message_right .knowledge .recruitment{width:402px;overflow: hidden;position:relative;}
+.message_right .knowledge .recruitment h3{height:32px;border-bottom:1px solid #69b83a;color:#69b83a;margin-bottom:22px;}
+.message_right .knowledge .recruitment h3 span{border-left:6px solid #3ed2b0;display:block;font-size:16px;padding-left:8px;}
+.message_right .knowledge .recruitment .job_list{width:402px;height:65px;border-bottom:1px dashed #eeeeee;padding:12px 0;}
+.message_right .knowledge .recruitment .job_title{width:250px;height:78px;float:left;}
+.message_right .knowledge .recruitment .job_title span{
+	display:block;
+	width:250px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.message_right .knowledge .recruitment .detection{width:138px;height:78px;float:left;}
+.message_right .knowledge .recruitment .detection span{
+	display:block;
+	width:138px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*人才招聘end*/

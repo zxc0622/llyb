@@ -1,0 +1,37 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;text-decoration: none;list-style: none;font-size: 12px;font-family:"微软雅黑";}
+body{overflow-x:hidden;}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,img,input,button,textarea{margin:0; padding:0; list-style:none;}
+/**公共样式**/
+a:link,a:visited{color:#666; text-decoration:none;}
+a:hover{color:#008f00;}
+.demand_tab{width:1200px;overflow:hidden;margin:0 auto;margin-top:43px;}
+.demand_tab .professional_work{width:200px;float:left;padding-bottom: 50px;}
+.demand_tab .operation{width:200px;height:40px;color:#fff;text-align:center;line-height:40px;margin-bottom:4px;font-size:16px;background:url(../../../img/v2/solidsupply/left_menu.png) 42px 13px no-repeat;background-color:#008f00;}
+.demand_tab .professional_work li.currentss{background-color:#69b83a;color:#fff;}
+.demand_tab .professional_work li{width:200px;height:43px;line-height:43px;color:#000;text-align:center;font-size:16px;border-bottom:1px solid #eefbe5;cursor:pointer;}
+.demand_tab .write{float:left;width:958px;border:1px solid #d2d2d2;margin-bottom: 50px;margin-left:40px;overflow:hidden;}
+.demand_tab .caption{width:870px;/* height:30px; */margin:0 auto;margin-top:39px;}
+.demand_tab .caption h3{float:left;line-height:28px;padding-left:16px;margin-bottom: 30px;border-left:6px solid #008f00;font-size:18px;font-weight:bold;color:#69b83a;}
+.demand_tab .caption p{width:150px;float:right;margin-right:12px;}
+.demand_tab .caption .submission{width:200px;float:right;margin-right:20px;}
+.demand_tab .caption p input{height: 28px;}
+.demand_tab .caption p button{background-color:#008f00;width:150px;height:28px;line-height:28px;}
+.demand_tab .caption .The_list{clear:both;/* padding-left:10px; */width:960px;height:40px;padding-left:10px\9;}
+.demand_tab .caption .The_list li{float:left;width:182px;font-weight:bold;font-size:14px;margin-bottom: 20px;}
+.demand_tab .caption table{margin-bottom:40px;}
+.demand_tab .caption tr:hover{background-color:#fafafa;color:#69b83a;}
+.demand_tab .caption th{text-align:left;font-size:14px;padding:0 0 20px 10px;width:21%;font-weight:bold;cursor:pointer;}
+.demand_tab .caption td{height:38px;font-size:14px;width:21%;border-bottom:1px dashed #e6e6e6;padding-left:10px;cursor:pointer;}
+.advisory_agents h3{width:100px;height:40px;margin: 0 auto;font-weight:bold;text-align: center;margin-top:80px;font-size:20px;background:url(../../../img/v2/solidsupply/bottom_line.png) 0 36px no-repeat;}
+.advisory_agents .details_information{width:616px;height:80px;margin:0 auto;margin-top:76px;}
+.advisory_agents .details_information .c_desc{display: block;float: left;width: 500px;overflow: hidden;line-height: 21px;font-weight: normal;margin: 6px 0 0 10px;}
+.advisory_agents .details_information b{font-size:14px;}
+.advisory_agents .details_information span{font-size:14px;}
+.advisory_agents li {float:left;line-height:35px;}
+.advisory_agents li p{font-size:14px;}
+.advisory_agents .attention{width:100%;height:100px;background-color:#ececec;position:absolute;bottom:0;}
+.advisory_agents .attention p{font-size:16px;color:#008f00;line-height:100px;padding-left:48px;}
+.advisory_agents .attention .Customer{width:120px;height:34px;background-color:#008f00;color:#fff;line-height:34px;text-align:center;font-size:14px;position:absolute;bottom:33px;right:191px;}
+.advisory_agents .attention .payment{width:120px;height:34px;background-color:#ee7800;color:#fff;line-height:34px;text-align:center;font-size:14px;position:absolute;bottom:33px;right:51px;}
+.paging{height:34px;width:870px;margin:0 auto;margin-bottom:20px;}
